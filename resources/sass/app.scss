@@ -8,7 +8,132 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+
+//Colors
+$white: rgba(255, 255, 255, 1);
+$ivory: rgba(245, 249, 226, 1);
+
+
+//Fonts
+$primary-font: serif;
+$fancy-font: 'Tangerine', cursive;
+
+$lg-font: 6vw;
+$med-font: 1.7vw;
+$sm-font: .8vw;
+
+
+body {
+    font-size: $med-font;
+    font-family: $primary-font;
+}
+
+
+//Backgrounds
+
+//Home Background
+.light-bg {
+    padding: 0;
+    height: 100vh;
+    background-color: $ivory;
+    position: relative;
+    z-index: 1;
+}
+
+.dark-bg {
+    background-image: url("http://bgfons.com/uploads/lines/lines_texture1086.jpg");
+    box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
+    height: 75vh;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+}
+
+
+//Home Page Content
+.featured-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 5;
+    header a {
+        &:link { color: $white; }
+        &:visited { color: $white; }
+        &:hover { color: $white; text-decoration: none; }
+        &:active { color: $white; }
+        font-family: $fancy-font;
+        font-size: $lg-font;
+        text-shadow: 1.5px 2px 1px rgba(120, 120, 120, 1);
+    }
+}
+
+.white-border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10px solid $white;
+    background-color: $white;
+    box-shadow: 0 7px 8px 0 rgba(50, 50, 50, 0.55);
+}
+
+
+//Images
+
+//Home Page Images
+//Crop actual images to correct size and make responsive
+.image1, .image2, .image3 {
+    height: 30rem;
+    width: 25rem;
+    background-size: cover;
+}
+
+.image1 {
+    background-image: url("https://media1.popsugar-assets.com/files/thumbor/6SxD03f061vmxXePbeBzVbn-Dkk/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2013/04/15/1/192/1922564/787b0dc7ea090bbc_il_fullxfull.422683369_8j6t/i/Melinda-Rose-Design-bridal-mini-hat-veil-175-emotes-sweet.jpg");
+}
+.image2 {
+    background-image: url("https://glamfashion.net/wp-content/uploads/2017/08/1502448076_727_wedding-hairstyle-ideas-wedding-veil-styles-youll-love.jpg");
+}
+.image3 {
+    background-image: url("https://i.pinimg.com/736x/38/45/cb/3845cb4e0a8bebdcc8f26a266ae1a56a.jpg");
+}
+
+//Gallery Images
+.gallery-row {
+    margin: 0 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row1 {
+    margin-top: 1rem;
+}
+.row2 {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+//Navigation
+
+//Home Navigation
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 7rem;
+}
+
+nav a {
+    &:link { color: $white; }
+    &:visited { color: $white; }
+    &:hover { color: $white; text-decoration: none; }
+    &:active { color: $white; }
+    padding: 0 0 0 3.5rem;
 }
