@@ -4,5 +4,6 @@
 
 @section('content')
 
+    <div>Gallery</div>
 
 @endsection

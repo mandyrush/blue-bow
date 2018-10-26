@@ -4,5 +4,6 @@
 
 @section('content')
 
+    <div>Contact</div>
 
 @endsection

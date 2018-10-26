@@ -18,6 +18,7 @@ $ivory: rgba(245, 249, 226, 1);
 $primary-font: serif;
 $fancy-font: 'Tangerine', cursive;
 
+//Font Sizes
 $lg-font: 6vw;
 $med-font: 1.7vw;
 $sm-font: .8vw;
@@ -48,10 +49,6 @@ body {
     width: 100%;
 }
 
-.home-menu {
-    align-items: baseline;
-}
-
 .dark-bg-master {
     background-image: url("/images/darkbg-cropped2.png");
     background-size: cover;
@@ -59,34 +56,67 @@ body {
     width: 100%;
     position: absolute;
     z-index: 3;
-    align-items: baseline;
 }
 
 
-//Home Page Content
-.home-content {
+//Page Content
+.home-content, .master-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     height: 100vh;
     width: 100%;
     position: relative;
     z-index: 5;
 }
 
-.featured-images {
-    display: flex;
-    align-items: center;
+.home-content {
     justify-content: center;
+}
+
+.master-content {
+    justify-content: flex-start;
+}
+
+.page-content {
+    height: 75vh;
+    width: 90%;
+    background-color: $ivory;
+}
+
+.about-content {
+    display: flex;
+    height: 100%;
+}
+
+.about-linda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 1.5;
+    padding: 2rem 2rem 0 0;
+    header {
+        padding-bottom: 2rem;
+    }
+}
+
+
+//Borders
+.white-border {
     border: 10px solid $white;
-    background-color: $white;
     box-shadow: 0 7px 8px 0 rgba(50, 50, 50, 0.55);
 }
 
 
 //Images
 //Crop actual images to correct size and make responsive
+.featured-images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $white;
+}
+
 .image1, .image2, .image3 {
     height: 30rem;
     width: 25rem;
@@ -103,11 +133,19 @@ body {
     background-image: url("https://i.pinimg.com/736x/38/45/cb/3845cb4e0a8bebdcc8f26a266ae1a56a.jpg");
 }
 
+.linda-pic {
+    background-image: url("/images/mom-pic.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
 
 //Navigation
 .navigation {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     width: 100%;
     padding: 0 7rem;
     header a {
