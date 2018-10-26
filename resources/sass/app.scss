@@ -30,23 +30,36 @@ body {
 
 
 //Backgrounds
-
-//Home Background
 .light-bg {
     padding: 0;
-    height: 100vh;
     background-color: $ivory;
+    height: 100vh;
     position: relative;
     z-index: 1;
 }
 
-.dark-bg {
-    background-image: url("http://bgfons.com/uploads/lines/lines_texture1086.jpg");
-    box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
-    height: 75vh;
+.home-header {
+    align-items: baseline;
+}
+
+.master-header {
+    background-image: url("/images/darkbg-cropped2.png");
+    align-items: baseline;
+    background-size: cover;
     width: 100%;
+    height: 100%;
     position: absolute;
     z-index: 3;
+}
+
+.dark-bg {
+    background-image: url("http://bgfons.com/uploads/lines/lines_texture1086.jpg");
+    background-size: cover;
+    height: 75vh;
+    position: absolute;
+    z-index: 3;
+    box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
+    width: 100%;
 }
 
 
@@ -60,15 +73,6 @@ body {
     width: 100%;
     position: relative;
     z-index: 5;
-    header a {
-        &:link { color: $white; }
-        &:visited { color: $white; }
-        &:hover { color: $white; text-decoration: none; }
-        &:active { color: $white; }
-        font-family: $fancy-font;
-        font-size: $lg-font;
-        text-shadow: 1.5px 2px 1px rgba(120, 120, 120, 1);
-    }
 }
 
 .white-border {
@@ -82,8 +86,6 @@ body {
 
 
 //Images
-
-//Home Page Images
 //Crop actual images to correct size and make responsive
 .image1, .image2, .image3 {
     height: 30rem;
@@ -101,33 +103,22 @@ body {
     background-image: url("https://i.pinimg.com/736x/38/45/cb/3845cb4e0a8bebdcc8f26a266ae1a56a.jpg");
 }
 
-//Gallery Images
-.gallery-row {
-    margin: 0 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.row1 {
-    margin-top: 1rem;
-}
-.row2 {
-    width: 100%;
-    margin-right: 0;
-    margin-left: 0;
-}
-
 
 //Navigation
-
-//Home Navigation
 .navigation {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     width: 100%;
     padding: 0 7rem;
+    header a {
+        &:link { color: $white; }
+        &:visited { color: $white; }
+        &:hover { color: $white; text-decoration: none; }
+        &:active { color: $white; }
+        font-family: $fancy-font;
+        font-size: $lg-font;
+        text-shadow: 1.5px 2px 1px rgba(120, 120, 120, 1);
+    }
 }
 
 nav a {

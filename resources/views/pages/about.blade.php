@@ -3,7 +3,7 @@
 @section('title', 'About Me')
 
 @section('content')
-    <div class="container-fluid">
-        About Me
-    </div>
+
+    <div class="container-fluid">About</div>
+
 @endsection
