@@ -7,11 +7,10 @@
 
     <div class="light-bg container-fluid">
 
-        <div class="navigation master-header">
+        <div class="navigation dark-bg-master">
             @include('partials.header')
         </div>
 
-        @yield('content')
     </div>
 
 </body>

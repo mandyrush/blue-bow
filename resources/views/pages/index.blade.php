@@ -5,15 +5,15 @@
 @section('content')
     <div class="container-fluid light-bg">
 
-        <div class="dark-bg"></div>
+        <div class="dark-bg-home"></div>
 
-        <div class="featured-content">
+        <div class="home-content">
 
-            <div class="navigation home-header">
+            <div class="navigation home-menu">
                 @include('partials.header')
             </div>
 
-            <div class="white-border">
+            <div class="featured-images">
                 <div class="image1"></div>
                 <div class="image2"></div>
                 <div class="image3"></div>

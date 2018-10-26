@@ -4,6 +4,4 @@
 
 @section('content')
 
-    <div class="container-fluid">About</div>
-
 @endsection
