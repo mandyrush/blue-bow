@@ -21,6 +21,7 @@ $fancy-font: 'Tangerine', cursive;
 $lg-font: 6vw;
 $med-font: 3.5vw;
 $sm-font: 1.7vw;
+$xs-font: 1.2vw;
 
 
 body {
@@ -78,18 +79,24 @@ body {
 }
 
 .content-outline {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 77vh;
     width: 95%;
 }
-
 
 .page-content {
     height: 100%;
     width: 100%;
     background-color: $white;
+}
+
+.contact-content {
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $fancy-font;
+        font-size: $med-font;
+    }
 }
 
 .about-content {
@@ -182,3 +189,27 @@ nav a {
     &:active { color: $white; }
     padding: 0 0 0 3.5rem;
 }
+
+//Forms
+.email-form {
+    padding: 1rem 2rem 0 2rem;
+    font-size: $xs-font;
+    form {
+        display: flex;
+        .form-column {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            padding: 0 3rem;
+            .message {
+                height: 20rem;
+                margin-bottom: 1.3rem;
+            }
+            .submit {
+                width: 30%;
+                align-self: flex-end;
+            }
+        }
+    }
+}
+
