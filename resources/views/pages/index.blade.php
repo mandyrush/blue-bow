@@ -7,7 +7,7 @@
 
         <div class="dark-bg-home"></div>
 
-        <div class="home-content">
+        <div class="master-content">
 
             <div class="navigation home-menu">
                 @include('partials.header')

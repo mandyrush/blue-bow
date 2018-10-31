@@ -5,7 +5,7 @@
 @section('content')
 
     <div class="contact-content">
-        <header class="row">Contact</header>
+        <header class="row">Contact Me</header>
 
         <div class="email-form">
 

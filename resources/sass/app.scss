@@ -42,51 +42,40 @@ body {
 .dark-bg-home {
     background-image: url("http://bgfons.com/uploads/lines/lines_texture1086.jpg");
     background-size: cover;
-    height: 75vh;
     position: absolute;
     z-index: 3;
-    box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
     width: 100%;
+    height: 75vh;
+    box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
 }
 
 .dark-bg-master {
-    background-image: url("/images/darkbg-cropped2.png");
+    background-image: url("http://bgfons.com/uploads/lines/lines_texture1086.jpg");
     background-size: cover;
-    height: 100%;
-    width: 100%;
     position: absolute;
     z-index: 3;
+    width: 100%;
+    height: 100%;
+    -webkit-clip-path: polygon(0 0, 100rem 0, 100rem 10%, 0 110%);
+    clip-path: polygon(0 0, 100rem 0, 100rem 10%, 0 110%);
 }
 
 
 //Page Content
-.home-content, .master-content {
+.master-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
+    padding-top: 4rem;
     height: 100vh;
     width: 100%;
     position: relative;
     z-index: 5;
 }
 
-.home-content {
-    justify-content: center;
-}
-
-.master-content {
-    justify-content: flex-start;
-}
-
-.content-outline {
-    height: 77vh;
-    width: 95%;
-}
-
 .page-content {
-    height: 100%;
-    width: 100%;
-    background-color: $white;
+    margin-top: 3rem;
 }
 
 .contact-content {
@@ -101,15 +90,15 @@ body {
 
 .about-content {
     display: flex;
-    height: 100%;
+    justify-content: space-around;
 }
 
 .about-linda {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    flex-shrink: 1.3;
-    padding: 2rem 5rem 0 0;
+    align-items: flex-end;
+    justify-content: flex-end;
+    height: 60vh;
     header {
         padding-bottom: 2rem;
         font-family: $fancy-font;
@@ -122,12 +111,6 @@ body {
 .white-border {
     border: 10px solid $white;
     box-shadow: 0 7px 8px 0 rgba(50, 50, 50, 0.55);
-}
-
-.transparent-border {
-    height: 100%;
-    width: 100%;
-    border: 15px solid transparent;
 }
 
 
@@ -159,18 +142,26 @@ body {
 .linda-pic {
     background-image: url("/images/mom-pic.jpg");
     background-repeat: no-repeat;
-    max-height: 100%;
-    width: 100%;
+    background-position: top;
+    background-size: inherit;
+    padding: 0;
 }
 
 
 //Navigation
 .navigation {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: baseline;
     width: 100%;
-    padding: 0 7rem;
+
+    header {
+        padding-left: 2rem;
+    }
+    nav {
+        text-align: end;
+        padding-right: 2rem;
+    }
     header a {
         &:link { color: $white; }
         &:visited { color: $white; }

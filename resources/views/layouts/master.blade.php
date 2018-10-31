@@ -14,12 +14,8 @@
                 @include('partials.header')
             </div>
 
-            <div class="content-outline white-border">
-                <div class="transparent-border">
-                    <div class="page-content">
-                        @yield('content')
-                    </div>
-                </div>
+            <div class="page-content">
+                @yield('content')
             </div>
         </div>
 
