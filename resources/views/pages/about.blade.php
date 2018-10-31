@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.angled')
 
 @section('title', 'About Me')
 
@@ -6,14 +6,14 @@
 
     <div class="about-content">
 
-        <div class="linda-pic col-md-5"></div>
+        <div class="linda-pic white-border col-md-3"></div>
 
         <div class="about-linda col-md-5">
 
             <header>About Me</header>
 
             <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam venenatis neque sem, sit amet condimentum lectus ultricies at. Pellentesque massa nibh, ornare pharetra tempor sit amet, dapibus et nisl. Donec nec congue ipsum. Praesent luctus metus eu cursus bibendum. Sed rutrum rhoncus erat, non mattis felis.
+                My name is Linda and I love making wedding veils and accessories. In fact it's on my list of things I love the most right along with my kids and my cats (aka my other furry kids). In my spare time you'll find me in my sewing room drinking coffee from my blue kitty mug, watching Die Hard and working on my latest project.
             </span>
 
         </div>

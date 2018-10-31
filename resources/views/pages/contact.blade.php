@@ -5,9 +5,10 @@
 @section('content')
 
     <div class="contact-content">
-        <header class="row">Contact Me</header>
 
-        <div class="email-form">
+        <div class="email-form col-md-9">
+
+            <header class="row col-md-12">Contact Me</header>
 
             <form action="">
                 <div class="form-column">
@@ -39,6 +40,7 @@
             </form>
 
         </div>
+
     </div>
 
 @endsection

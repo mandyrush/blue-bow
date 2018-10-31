@@ -1,11 +1,11 @@
-@extends('layouts.home')
+@extends('layouts.basic')
 
 @section('title', 'Welcome to')
 
 @section('content')
     <div class="light-bg container-fluid">
 
-        <div class="dark-bg-home"></div>
+        <div class="dark-bg-basic"></div>
 
         <div class="master-content">
 

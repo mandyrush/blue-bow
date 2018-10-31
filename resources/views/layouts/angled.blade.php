@@ -5,7 +5,9 @@
 </head>
 <body>
 
-    <div class="dark-bg-master container-fluid"></div>
+<div class="light-bg container-fluid">
+
+    <div class="dark-bg-angled"></div>
 
     <div class="master-content">
         <div class="navigation">
@@ -16,6 +18,8 @@
             @yield('content')
         </div>
     </div>
+
+</div>
 
 </body>
 </html>

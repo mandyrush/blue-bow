@@ -10,8 +10,11 @@
 
 
 //Colors
+$white-opaque: rgba(255, 255, 255, .5);
 $white: rgba(255, 255, 255, 1);
 $ivory: rgba(245, 249, 226, 1);
+$ivory-opaque: rgba(245, 249, 226, .5);
+$blue: rgba(10, 51, 149, 1);
 
 //Fonts
 $primary-font: serif;
@@ -39,7 +42,7 @@ body {
     z-index: 1;
 }
 
-.dark-bg-home {
+.dark-bg-basic {
     background-image: url("http://bgfons.com/uploads/lines/lines_texture1086.jpg");
     background-size: cover;
     position: absolute;
@@ -50,6 +53,15 @@ body {
 }
 
 .dark-bg-master {
+    background-image: url("http://bgfons.com/uploads/lines/lines_texture1086.jpg");
+    background-size: cover;
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+}
+
+.dark-bg-angled {
     background-image: url("http://bgfons.com/uploads/lines/lines_texture1086.jpg");
     background-size: cover;
     position: absolute;
@@ -75,22 +87,28 @@ body {
 }
 
 .page-content {
-    margin-top: 3rem;
+    margin-top: 1rem;
+    width: 100%;
 }
 
 .contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     header {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
         font-family: $fancy-font;
         font-size: $med-font;
+        color: $blue;
     }
 }
 
 .about-content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .about-linda {
@@ -98,11 +116,13 @@ body {
     flex-direction: column;
     align-items: flex-end;
     justify-content: flex-end;
-    height: 60vh;
+    height: 65vh;
+    margin: 0 7rem;
     header {
         padding-bottom: 2rem;
         font-family: $fancy-font;
         font-size: $med-font;
+        color: $blue;
     }
 }
 
@@ -145,6 +165,7 @@ body {
     background-position: top;
     background-size: inherit;
     padding: 0;
+    margin: 0 7rem 0 15rem;
 }
 
 
@@ -183,15 +204,19 @@ nav a {
 
 //Forms
 .email-form {
-    padding: 1rem 2rem 0 2rem;
     font-size: $xs-font;
+    background-color: $ivory;
+    padding: 2rem;
     form {
         display: flex;
         .form-column {
             display: flex;
             flex-direction: column;
-            width: 50%;
+            width: 100%;
             padding: 0 3rem;
+            label {
+                color: $blue;
+            }
             .message {
                 height: 20rem;
                 margin-bottom: 1.3rem;
@@ -199,6 +224,7 @@ nav a {
             .submit {
                 width: 30%;
                 align-self: flex-end;
+                color: $blue;
             }
         }
     }
