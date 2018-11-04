@@ -5,7 +5,7 @@
 </head>
 <body>
 
-    <div class="dark-bg-master container-fluid"></div>
+    <div class="dark-bg master container-fluid"></div>
 
     <div class="master-content">
         <div class="navigation">

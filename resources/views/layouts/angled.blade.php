@@ -7,7 +7,7 @@
 
 <div class="light-bg container-fluid">
 
-    <div class="dark-bg-angled"></div>
+    <div class="dark-bg angled"></div>
 
     <div class="master-content">
         <div class="navigation">

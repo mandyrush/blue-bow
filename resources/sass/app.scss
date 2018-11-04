@@ -42,31 +42,24 @@ body {
     z-index: 1;
 }
 
-.dark-bg-basic {
+.dark-bg {
     background-image: url("http://bgfons.com/uploads/lines/lines_texture1086.jpg");
     background-size: cover;
     position: absolute;
     z-index: 3;
     width: 100%;
+}
+
+.home {
     height: 75vh;
     box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
 }
 
-.dark-bg-master {
-    background-image: url("http://bgfons.com/uploads/lines/lines_texture1086.jpg");
-    background-size: cover;
-    position: absolute;
-    z-index: 3;
-    width: 100%;
+.master {
     height: 100%;
 }
 
-.dark-bg-angled {
-    background-image: url("http://bgfons.com/uploads/lines/lines_texture1086.jpg");
-    background-size: cover;
-    position: absolute;
-    z-index: 3;
-    width: 100%;
+.angled {
     height: 100%;
     -webkit-clip-path: polygon(0 0, 100rem 0, 100rem 10%, 0 110%);
     clip-path: polygon(0 0, 100rem 0, 100rem 10%, 0 110%);
