@@ -1,11 +1,12 @@
 <div class="light-bg container-fluid">
 
-    <div class="master-content">
+    <header>My Work</header>
 
-        <div class="page-content">
-            <div>Gallery</div>
-        </div>
-
+    <div class="gallery-images">
+        <figure class="lg-gallery-img"></figure>
+        <figure class="sm-gallery-img"></figure>
+        <figure class="sm-gallery-img"></figure>
+        <figure class="sm-gallery-img"></figure>
     </div>
 
 </div>

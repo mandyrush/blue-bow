@@ -14,9 +14,9 @@
             </div>
 
             <div class="featured-images white-border">
-                <div class="image1"></div>
-                <div class="image2"></div>
-                <div class="image3"></div>
+                <figure class="image1"></figure>
+                <figure class="image2"></figure>
+                <figure class="image3"></figure>
             </div>
         </div>
 

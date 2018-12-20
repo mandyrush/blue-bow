@@ -6,7 +6,7 @@
 
         <div class="about-content">
 
-            <div class="linda-pic white-border col-md-3"></div>
+            <figure class="linda-pic white-border col-md-3"></figure>
 
             <div class="about-linda col-md-5">
 
