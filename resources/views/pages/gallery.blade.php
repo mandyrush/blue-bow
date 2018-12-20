@@ -3,10 +3,9 @@
     <header>My Work</header>
 
     <div class="gallery-images">
-        <figure class="lg-gallery-img"></figure>
-        <figure class="sm-gallery-img"></figure>
-        <figure class="sm-gallery-img"></figure>
-        <figure class="sm-gallery-img"></figure>
+        <figure class="lg-gallery-img" style="background-image: url('/images/brittany-hat-front.jpg')"></figure>
+        <figure class="sm-gallery-img" style="background-image: url('/images/brittany-hat-back.jpg')"></figure>
+        <figure class="sm-gallery-img" style="background-image: url('/images/brittany.jpg')"></figure>
     </div>
 
 </div>
