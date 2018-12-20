@@ -13,10 +13,8 @@
                 @include('partials.header')
             </div>
 
-            <div class="featured-images white-border">
-                <figure class="image1"></figure>
-                <figure class="image2"></figure>
-                <figure class="image3"></figure>
+            <div class="banner">
+                <img src="/images/banner.jpg" alt="Three brides wearing wedding veils" class="banner-img">
             </div>
         </div>
 

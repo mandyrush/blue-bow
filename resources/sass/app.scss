@@ -43,8 +43,9 @@ body {
 }
 
 .dark-bg {
-    background-image: url("http://bgfons.com/uploads/lines/lines_texture1086.jpg");
+    background-image: url('/images/blue-background.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     position: absolute;
     z-index: 3;
     width: 100%;
@@ -154,39 +155,22 @@ body {
 
 
 //Images
-//Crop actual images to correct size and make responsive
-.featured-images {
+.banner {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: $white;
 }
 
-.image1, .image2, .image3 {
-    height: 30rem;
-    width: 25rem;
-    background-size: cover;
-    margin-bottom: 0;
-}
-
-.image1 {
-    background-image: url("https://media1.popsugar-assets.com/files/thumbor/6SxD03f061vmxXePbeBzVbn-Dkk/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2013/04/15/1/192/1922564/787b0dc7ea090bbc_il_fullxfull.422683369_8j6t/i/Melinda-Rose-Design-bridal-mini-hat-veil-175-emotes-sweet.jpg");
-}
-.image2 {
-    background-image: url("https://glamfashion.net/wp-content/uploads/2017/08/1502448076_727_wedding-hairstyle-ideas-wedding-veil-styles-youll-love.jpg");
-}
-.image3 {
-    background-image: url("https://i.pinimg.com/736x/38/45/cb/3845cb4e0a8bebdcc8f26a266ae1a56a.jpg");
+.banner-img {
+    border: 10px solid $white;
+    max-width: 100%;
+    height: auto;
 }
 
 .linda-pic {
-    background-image: url("/images/linda.jpg");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: inherit;
-    padding: 0;
-    margin: 0 7rem 0 15rem;
-    height: 500px;
+    border: 10px solid $white;
+    max-width: 100%;
+    height: auto;
 }
 
 

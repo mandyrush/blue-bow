@@ -6,7 +6,7 @@
 
         <div class="about-content">
 
-            <figure class="linda-pic white-border col-md-3"></figure>
+            <img src="/images/linda.jpg" alt="Image of Linda" class="linda-pic">
 
             <div class="about-linda col-md-5">
 
