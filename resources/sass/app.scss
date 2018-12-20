@@ -91,17 +91,21 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 100vh;
+    padding: 0;
 }
 
 .contact-content {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100%;
+    margin: 3rem;
     header {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
+        padding: 2rem 0;
         font-family: $fancy-font;
         font-size: $med-font;
         color: $blue;
@@ -223,6 +227,7 @@ nav a {
     font-size: $xs-font;
     background-color: $ivory;
     padding: 2rem;
+    height: 100%;
     form {
         display: flex;
         .form-column {

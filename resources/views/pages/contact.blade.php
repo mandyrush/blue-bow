@@ -2,7 +2,7 @@
 
     <div class="contact-content">
 
-        <div class="email-form col-md-9">
+        <div class="email-form col-md-12">
 
             <header class="row col-md-12">Contact Me</header>
 
