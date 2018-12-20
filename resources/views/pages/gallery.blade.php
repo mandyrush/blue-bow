@@ -1,9 +1,11 @@
-@extends('layouts.master')
+<div class="light-bg container-fluid">
 
-@section('title', 'Gallery')
+    <div class="master-content">
 
-@section('content')
+        <div class="page-content">
+            <div>Gallery</div>
+        </div>
 
-    <div>Gallery</div>
+    </div>
 
-@endsection
+</div>

@@ -1,8 +1,4 @@
-@extends('layouts.master')
-
-@section('title', 'Contact Me')
-
-@section('content')
+<div class="contact container-fluid">
 
     <div class="contact-content">
 
@@ -38,9 +34,7 @@
                     <button type="submit" class="submit">Submit</button>
                 </div>
             </form>
-
         </div>
-
     </div>
 
-@endsection
+</div>

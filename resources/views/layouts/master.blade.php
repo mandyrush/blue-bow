@@ -4,18 +4,12 @@
     @include('partials.head')
 </head>
 <body>
+    @yield('content')
 
-    <div class="dark-bg master container-fluid"></div>
+    @include ('pages.gallery')
 
-    <div class="master-content">
-        <div class="navigation">
-            @include('partials.header')
-        </div>
+    @include ('pages.contact')
 
-        <div class="page-content">
-            @yield('content')
-        </div>
-    </div>
-
+    @include ('pages.about')
 </body>
 </html>

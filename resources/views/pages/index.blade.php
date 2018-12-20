@@ -1,4 +1,4 @@
-@extends('layouts.home')
+@extends('layouts.master')
 
 @section('title', 'Welcome to')
 
@@ -21,4 +21,5 @@
         </div>
 
     </div>
+
 @endsection
