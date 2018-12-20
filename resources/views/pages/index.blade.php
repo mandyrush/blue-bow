@@ -16,6 +16,7 @@
             <div class="banner">
                 <img src="/images/banner.jpg" alt="Three brides wearing wedding veils" class="banner-img">
             </div>
+
         </div>
 
     </div>
