@@ -1,13 +1,15 @@
-<header class="col-md-5">
+<header>
     <a href="/">
-        <div class="title">Blue Bow Montana</div>
-        <div class="title-description">Handmade Wedding Veils and Accessories</div>
+        <div class="title">Blue Bow Montana
+            <div class="title-description">Handmade Wedding Veils and Accessories</div>
+        </div>
+
     </a>
 </header>
-<nav class="col-md-4">
-    <a href="#" class="nav-item">Gallery</a>
-    <a href="#" class="nav-item">Contact</a>
-    <a href="#" class="nav-item">About</a>
+<nav class="col-md-5">
+    <a href="#" class="nav-item">My Work</a>
+    <a href="#" class="nav-item">Contact Me</a>
+    <a href="#" class="nav-item">About Me</a>
 </nav>
 
 

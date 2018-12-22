@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('pages.index');
 });
+
+Route::get('/mywork', function () {
+    return view('pages.my-work');
+});
