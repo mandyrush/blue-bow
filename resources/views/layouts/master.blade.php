@@ -6,8 +6,6 @@
 <body>
     @yield('content')
 
-    @include ('pages.intro')
-
     @include ('pages.gallery')
 
     @include ('pages.contact')
