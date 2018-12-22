@@ -32,6 +32,10 @@ body {
     font-family: $primary-font;
 }
 
+figure {
+    margin-bottom: 0;
+}
+
 
 //Backgrounds
 .light-bg {
@@ -68,16 +72,10 @@ body {
 
 
 //Page Content
-.site-description {
+.banner {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: $fancy-font;
-    color: $white;
-    background-color: rgba(10, 51, 149, .8);
-    font-size: 2.5rem;
-
-    height: 20vh;
 }
 
 .master-content {
@@ -90,11 +88,6 @@ body {
     width: 100%;
     position: relative;
     z-index: 5;
-}
-
-.page-content {
-    margin-top: 1rem;
-    width: 100%;
 }
 
 .contact {
@@ -167,12 +160,6 @@ body {
 
 
 //Images
-.banner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .banner-img {
     border: 10px solid $white;
     max-width: 100%;
@@ -183,6 +170,93 @@ body {
     border: 10px solid $white;
     max-width: 100%;
     height: auto;
+}
+
+.gallery-images {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 1em;
+    background-color: darkgray;
+    padding: 5rem 0;
+    .lg-gallery-img {
+        max-height: 428px;
+        .lg-img {
+            max-height: 428px;
+            max-width: 100%;
+            border: 2px solid $white;
+        }
+    }
+    .sm-gallery-img {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 1em;
+        max-height: 202px;
+        div {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        .sm-img {
+            max-height: 202px;
+            max-width: 100%;
+            border: 2px solid $white;
+        }
+    }
+}
+
+.slide-two {
+    .sm-img-two {
+        grid-row: 1/2;
+        grid-column: 3/4;
+    }
+    .sm-img-three {
+        grid-row: 2/3;
+        grid-column: 2/3;
+    }
+}
+
+.slide-three {
+    .sm-img-two {
+        grid-row: 1/2;
+        grid-column: 3/4;
+    }
+    .sm-img-three {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .sm-img-four {
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
+
+}
+
+.slide-four {
+    .sm-img-one {
+        grid-row: 1/2;
+        grid-column: 2/3;
+    }
+    .sm-img-two {
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .sm-img-three {
+        grid-row: 2/3;
+        grid-column: 3/4;
+    }
+}
+
+.gallery-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 0;
+    font-family: $fancy-font;
+    font-size: $med-font;
+    color: $blue;
+
 }
 
 
@@ -206,8 +280,17 @@ body {
         &:hover { color: $white; text-decoration: none; }
         &:active { color: $white; }
         font-family: $fancy-font;
-        font-size: $lg-font;
         text-shadow: 1.5px 2px 1px rgba(120, 120, 120, 1);
+        .title {
+            font-size: $lg-font;
+            border: 1px solid red;
+        }
+        .title-description {
+            display: flex;
+            justify-content: flex-end;
+            font-size: $sm-font;
+            border: 1px solid green;
+        }
     }
 }
 
