@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/mywork', function () {
     return view('pages.my-work');
 });
+
+Route::post('/email', 'EmailController@send');
