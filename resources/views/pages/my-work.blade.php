@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <div class="dark-bg master mywork">
+    <div class="dark-bg home mywork">
 
         <div class="navigation">
             @include('partials.header')

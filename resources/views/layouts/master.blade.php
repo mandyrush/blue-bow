@@ -8,8 +8,11 @@
 
     @include ('pages.gallery')
 
-    @include ('pages.contact')
+    <div class="dark-bg">
+        @include ('pages.contact')
 
-    @include ('pages.about')
+        @include ('pages.about')
+    </div>
+
 </body>
 </html>

@@ -1,4 +1,4 @@
-<div class="light-bg container-fluid">
+<div class="gallery-home">
     <header class="gallery-header" id="gallery">My Work</header>
     <div id="myCarousel" class="carousel slide">
         <!-- Indicators -->

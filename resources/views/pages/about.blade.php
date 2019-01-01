@@ -1,14 +1,13 @@
-<div class="about container-fluid">
+{{--<div class="contact-about container-fluid">--}}
 
-    <div class="dark-bg angled"></div>
+    {{--<div class="dark-bg angled"></div>--}}
 
-    <div class="master-content">
 
         <div class="about-content" id="about-me">
 
             <img src="/images/linda.jpg" alt="Image of Linda" class="linda-pic">
 
-            <div class="about-linda col-md-5">
+            <div class="about-linda">
 
                 <header>About Me</header>
 
@@ -20,6 +19,5 @@
 
         </div>
 
-    </div>
 
-</div>
+{{--</div>--}}
