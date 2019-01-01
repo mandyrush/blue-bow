@@ -1,5 +1,5 @@
 <div class="light-bg container-fluid">
-    <header class="gallery-header">My Work</header>
+    <header class="gallery-header" id="gallery">My Work</header>
     <div id="myCarousel" class="carousel slide">
         <!-- Indicators -->
         <ol class="carousel-indicators">

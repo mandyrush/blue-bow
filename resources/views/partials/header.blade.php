@@ -7,9 +7,9 @@
     </a>
 </header>
 <nav class="col-md-5">
-    <a href="#" class="nav-item">My Work</a>
-    <a href="#" class="nav-item">Contact Me</a>
-    <a href="#" class="nav-item">About Me</a>
+    <a href="#gallery" class="nav-item">My Work</a>
+    <a href="#contact-me" class="nav-item">Contact Me</a>
+    <a href="#about-me" class="nav-item">About Me</a>
 </nav>
 
 

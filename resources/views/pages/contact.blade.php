@@ -1,4 +1,4 @@
-<div class="contact container-fluid">
+<div class="contact container-fluid" id="contact-me">
 
     <div class="contact-content">
 
@@ -10,13 +10,13 @@
                 @csrf
                 <div class="form-column">
                     <label for="firstName">First Name</label>
-                    <input type="text" id="firstName" name="firstName">
+                    <input type="text" id="firstName" class="{{ $errors->has('title') ? 'is-danger' : '' }}" name="firstName">
 
                     <label for="lastName">Last Name</label>
-                    <input type="text" id="lastName" name="lastName">
+                    <input type="text" id="lastName" class="{{ $errors->has('title') ? 'is-danger' : '' }}" name="lastName">
 
                     <label for="email">Email</label>
-                    <input type="text" id="email" name="email">
+                    <input type="text" id="email" class="{{ $errors->has('title') ? 'is-danger' : '' }}" name="email">
 
                     <label for="phone">Phone</label>
                     <input type="text" id="phone" name="phone">
@@ -30,10 +30,20 @@
 
                 <div class="form-column">
                     <label for="message">Message</label>
-                    <textarea name="message" id="message" class="message" name="message"></textarea>
+                    <textarea id="message" class="message" name="message"></textarea>
 
                     <button type="submit" class="submit">Submit</button>
                 </div>
+
+                @if($errors->any())
+                    <div class="notification is-danger">
+                        <ul>
+                            @foreach($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
             </form>
         </div>
     </div>

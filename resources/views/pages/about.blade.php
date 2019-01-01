@@ -4,7 +4,7 @@
 
     <div class="master-content">
 
-        <div class="about-content">
+        <div class="about-content" id="about-me">
 
             <img src="/images/linda.jpg" alt="Image of Linda" class="linda-pic">
 
