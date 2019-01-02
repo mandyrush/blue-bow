@@ -46,10 +46,11 @@ figure {
     width: 100%;
 }
 
+
 .home {
     max-height: 75vh;
     box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
-    margin-bottom: 15%;
+    //position: relative;
 }
 
 
@@ -115,10 +116,16 @@ figure {
 
 //Slider
 .gallery-home {
-    margin: 0 0 15% 0;
+    margin: 25% 0 15% 0;
     box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
     border-top: 1px solid rgba(50, 50, 50, 0.3);
     background-color: $white;
+}
+
+@media (max-height: 315px) {
+    .gallery-home {
+        margin-top: 15rem;
+    }
 }
 
 .gallery-images {
@@ -410,6 +417,7 @@ nav a {
 //Gallery Page
 .gallery {
     background-color: $ivory;
+    padding-top: 3rem;
 }
 .gallery-card {
     display: grid;

@@ -88,8 +88,20 @@
             'Teddy Bear Pomeranian'
         );
 
+        let cardFour = new GalleryCard(
+            [
+                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg',
+                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg',
+                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg',
+                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg',
+                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg',
+                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg'
+            ],
+            'Some other puppy'
+        );
+
         let cards = [];
-        cards.push(cardOne, cardTwo, cardThree);
+        cards.push(cardOne, cardTwo, cardThree, cardFour);
 
 
         for (let j = 0; j < cards.length; j++) {
