@@ -16,6 +16,17 @@
 
 
 
+    {{--Gallery Structure--}}
+
+    {{--gallery--}}
+         {{--galleryCard--}}
+             {{--images--}}
+                 {{--featuredImage--}}
+                 {{--thumbnails--}}
+             {{--cardTitle--}}
+
+
+
     <script>
         class GalleryCard {
             constructor(thumbnails, cardTitle) {
@@ -51,6 +62,7 @@
             images.appendChild(featuredImage);
             images.appendChild(thumbnails);
         }
+
 
         let cardOne = new GalleryCard(
             [

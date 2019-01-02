@@ -1,42 +1,43 @@
-<div class="gallery-home">
-    <header class="gallery-header" id="gallery">My Work</header>
+<div class="carousel-slider" id="carousel">
+    <header>My Work</header>
+
     <div id="myCarousel" class="carousel slide">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-            <li class="item1 active"></li>
-            <li class="item2"></li>
-            <li class="item3"></li>
-            <li class="item4"></li>
-            <li class="item5"></li>
+            <li class="indicator1 active"></li>
+            <li class="indicator2"></li>
+            <li class="indicator3"></li>
+            <li class="indicator4"></li>
+            <li class="indicator5"></li>
         </ol>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
 
-            <div class="carousel-item slide-one active">
-                <div class="gallery-images">
-                    <div class="lg-gallery-img">
-                        <img src="/images/brittany-hat-front.jpg" class="lg-img" alt="">
+            <div class="slide-one carousel-item active">
+                <div class="carousel-images">
+                    <div class="lg-img">
+                        <img src="/images/brittany-hat-front.jpg" alt="">
                     </div>
 
-                    <div class="sm-gallery-img">
+                    <div class="sm-images">
                         <div class="sm-img-one">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                         <div class="sm-img-two">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                         <div class="sm-img-three">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                         <div class="sm-img-four">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                         <div class="sm-img-five">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                         <div class="sm-img-six">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -46,21 +47,21 @@
                 </div>
             </div>
 
-            <div class="carousel-item slide-two">
-                <div class="gallery-images">
-                    <div class="lg-gallery-img">
-                        <img src="/images/brittany-hat-front.jpg" class="lg-img" alt="">
+            <div class="slide-two carousel-item">
+                <div class="carousel-images">
+                    <div class="lg-img">
+                        <img src="/images/brittany-hat-front.jpg" alt="">
                     </div>
 
-                    <div class="sm-gallery-img">
+                    <div class="sm-images">
                        <div class="sm-img-one">
-                           <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                           <img src="/images/brittany-hat-back.jpg" alt="">
                        </div>
                         <div class="sm-img-two">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                         <div class="sm-img-three">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -70,24 +71,24 @@
                 </div>
             </div>
 
-            <div class="carousel-item slide-three">
-                <div class="gallery-images">
-                    <div class="lg-gallery-img">
-                        <img src="/images/brittany-hat-front.jpg" class="lg-img" alt="">
+            <div class="slide-three carousel-item">
+                <div class="carousel-images">
+                    <div class="lg-img">
+                        <img src="/images/brittany-hat-front.jpg" alt="">
                     </div>
 
-                    <div class="sm-gallery-img">
+                    <div class="sm-images">
                         <div class="sm-img-one">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                         <div class="sm-img-two">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                         <div class="sm-img-three">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                         <div class="sm-img-four">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -97,21 +98,21 @@
                 </div>
             </div>
 
-            <div class="carousel-item slide-four">
-                <div class="gallery-images">
-                    <div class="lg-gallery-img">
-                        <img src="/images/brittany-hat-front.jpg" class="lg-img" alt="">
+            <div class="slide-four carousel-item">
+                <div class="carousel-images">
+                    <div class="lg-img">
+                        <img src="/images/brittany-hat-front.jpg" alt="">
                     </div>
 
-                    <div class="sm-gallery-img">
+                    <div class="sm-images">
                         <div class="sm-img-one">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                         <div class="sm-img-two">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                         <div class="sm-img-three">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -121,21 +122,21 @@
                 </div>
             </div>
 
-            <div class="carousel-item slide-five">
-                <div class="gallery-images">
-                    <div class="lg-gallery-img">
-                        <img src="/images/brittany-hat-front.jpg" class="lg-img" alt="">
+            <div class="slide-five carousel-item">
+                <div class="carousel-images">
+                    <div class="lg-img">
+                        <img src="/images/brittany-hat-front.jpg" alt="">
                     </div>
 
-                    <div class="sm-gallery-img">
+                    <div class="sm-images">
                         <div class="sm-img-one">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                         <div class="sm-img-two">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                         <div class="sm-img-three">
-                            <img src="/images/brittany-hat-back.jpg" class="sm-img" alt="">
+                            <img src="/images/brittany-hat-back.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -156,7 +157,7 @@
         </a>
     </div>
 
-    <div class="gallery-link">
+    <div class="link-to-gallery">
         <a href="/mywork">View More</a>
     </div>
 
@@ -171,19 +172,19 @@
         carouselElement.carousel();
 
         // Enable Carousel Indicators
-        $(".item1").click(function(){
+        $(".indicator1").click(function(){
             carouselElement.carousel(0);
         });
-        $(".item2").click(function(){
+        $(".indicator2").click(function(){
             carouselElement.carousel(1);
         });
-        $(".item3").click(function(){
+        $(".indicator3").click(function(){
             carouselElement.carousel(2);
         });
-        $(".item4").click(function(){
+        $(".indicator4").click(function(){
             carouselElement.carousel(3);
         });
-        $(".item5").click(function(){
+        $(".indicator5").click(function(){
             carouselElement.carousel(4);
         });
 

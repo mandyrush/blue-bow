@@ -6,7 +6,7 @@
 <body>
     @yield('content')
 
-    @include ('pages.gallery')
+    @include ('pages.carousel')
 
     <div class="dark-bg">
         @include ('pages.contact')

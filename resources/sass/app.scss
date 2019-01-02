@@ -46,13 +46,10 @@ figure {
     width: 100%;
 }
 
-
 .home {
     max-height: 75vh;
     box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
-    //position: relative;
 }
-
 
 //.angled {
 //    height: 100%;
@@ -114,35 +111,45 @@ figure {
 }
 
 
-//Slider
-.gallery-home {
+//Carousel-slider
+.carousel-slider {
     margin: 25% 0 15% 0;
     box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
     border-top: 1px solid rgba(50, 50, 50, 0.3);
     background-color: $white;
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: .5rem 0;
+        font-family: $fancy-font;
+        font-size: $med-font;
+        color: $blue;
+    }
 }
 
 @media (max-height: 315px) {
-    .gallery-home {
+    .carousel-slider {
         margin-top: 15rem;
     }
 }
 
-.gallery-images {
+.carousel-images {
     display: grid;
     grid-template-columns: repeat(2, auto);
     grid-gap: 1em;
     background-color: darkgray;
     padding: 5rem 0;
-    .lg-gallery-img {
+    .lg-img {
         max-height: 428px;
-        .lg-img {
+        img {
             max-height: 428px;
             max-width: 100%;
             border: 2px solid $white;
         }
     }
-    .sm-gallery-img {
+    .sm-images {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -153,7 +160,7 @@ figure {
             justify-content: flex-end;
             align-items: center;
         }
-        .sm-img {
+        img {
             max-height: 202px;
             max-width: 100%;
             border: 2px solid $white;
@@ -203,18 +210,7 @@ figure {
     }
 }
 
-.gallery-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: .5rem 0;
-    font-family: $fancy-font;
-    font-size: $med-font;
-    color: $blue;
-}
-
-.gallery-link {
+.link-to-gallery {
     display: flex;
     justify-content: flex-end;
     padding: 1rem;
@@ -231,18 +227,6 @@ figure {
         &:hover { color: $white; background-color: $blue; text-decoration: none; }
         &:active { color: $blue; }
     }
-}
-
-.gallery-item {
-    margin-bottom: 3rem;
-}
-
-.caption {
-    grid-row: 3/4;
-    grid-column: 1/3;
-    display: flex;
-    justify-content: center;
-    color: $white;
 }
 
 
@@ -414,56 +398,46 @@ nav a {
 }
 
 
-
-
-
-
 //Gallery Page
 .gallery {
     background-color: $ivory;
     padding-top: 3rem;
-}
-.gallery-card {
-    display: grid;
-    grid-template-rows: repeat(2, auto);
-    margin-bottom: 3rem;
-    background-color: darkgray;
-    padding: 5rem 0 3rem 0;
-}
-
-.images {
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    //grid-column-gap: .5em;
-}
-
-.featured-image {
-    max-height: 428px;
-    max-width: 100%;
-    border: 2px solid $white;
-}
-
-.thumbnails {
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(2, auto);
-    grid-gap: 1em;
-    list-style: none;
-    img {
-        max-height: 202px;
-        max-width: 100%;
-        border: 2px solid $white;
-        cursor: pointer;
+    .gallery-card {
+        display: grid;
+        grid-template-rows: repeat(2, auto);
+        margin-bottom: 3rem;
+        background-color: darkgray;
+        padding: 5rem 0 3rem 0;
+        .images {
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            //grid-column-gap: .5em;
+            .featured-image {
+                max-height: 428px;
+                max-width: 100%;
+                border: 2px solid $white;
+            }
+            .thumbnails {
+                margin: 0;
+                display: grid;
+                grid-template-columns: repeat(3, auto);
+                grid-template-rows: repeat(2, auto);
+                grid-gap: 1em;
+                list-style: none;
+                img {
+                    max-height: 202px;
+                    max-width: 100%;
+                    border: 2px solid $white;
+                    cursor: pointer;
+                }
+            }
+        }
+        .card-title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $white;
+            padding-top: 2rem;
+        }
     }
 }
-
-.card-title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: $white;
-    padding-top: 2rem;
-}
-
-
