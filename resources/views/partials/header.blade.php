@@ -1,7 +1,7 @@
 <header class="col-lg-5">
     <a href="/">
-        <div class="title">Blue Bow Montana
-            <div class="title-description">Handmade Wedding Veils and Accessories</div>
+        <div class="logo">Blue Bow Montana
+            <div class="logo-description">Handmade Wedding Veils and Accessories</div>
         </div>
 
     </a>

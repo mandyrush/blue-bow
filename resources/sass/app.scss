@@ -268,11 +268,11 @@ figure {
         &:active { color: $white; }
         font-family: $fancy-font;
         text-shadow: 1.5px 2px 1px rgba(120, 120, 120, 1);
-        .title {
+        .logo {
             font-size: $lg-font;
             position: relative;
         }
-        .title-description {
+        .logo-description {
             display: flex;
             justify-content: flex-end;
             width: 100%;
@@ -311,12 +311,12 @@ nav a {
         justify-content: center;
         align-items: center;
         header a {
-            .title {
+            .logo {
                 display: flex;
                 justify-content: center;
                 align-items: center;
             }
-            .title-description {
+            .logo-description {
                 justify-content: center;
             }
         }
@@ -341,7 +341,7 @@ nav a {
 .email-form {
     font-size: $xs-font;
     background-color: $ivory;
-    padding: 3rem 1.5rem;
+    padding: 2rem 1.5rem;
     height: 100%;
     box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
     header {
@@ -364,6 +364,7 @@ nav a {
             padding: 0 3rem;
             label {
                 color: $blue;
+                padding-top: .5rem;
             }
             .message {
                 max-height: 25rem;
@@ -374,6 +375,7 @@ nav a {
                 width: 30%;
                 align-self: flex-end;
                 color: $blue;
+                cursor: pointer;
             }
         }
         .contact.msg {
@@ -381,11 +383,13 @@ nav a {
             flex-direction: column;
             justify-content: space-between;
         }
-        .notification {
-
+        .error-msg {
+            color: red;
         }
     }
 }
+
+
 
 @media (max-width: 992px) {
     .contact {

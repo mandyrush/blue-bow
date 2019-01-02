@@ -2,20 +2,33 @@
 
 namespace App\Http\Controllers;
 
+use Validator;
 use Illuminate\Http\Request;
 use App\Mail\ContactMe;
 use Illuminate\Support\Facades\Mail;
+use Carbon\Carbon;
 
 class EmailController extends Controller
 {
     public function send(Request $request) {
 
-        request()->validate([
+        $messages = [
+            'weddingDate.after' => 'The wedding date must be a future date.'
+        ];
+
+        $validator = Validator::make($request->all(), [
             'firstName' => 'required',
             'lastName' => 'required',
             'email' => ['required', 'email'],
-            'phone' => 'numeric'
-        ]);
+            'phone' => 'nullable|numeric|digits:10',
+            'weddingDate' => 'nullable|after:today'
+        ], $messages);
+
+        if( $validator-> fails()) {
+            return redirect('/#contact-me')
+                ->withErrors($validator)
+                ->withInput();
+        }
 
         Mail::to('mandyrush85@gmail.com')->send(
             new ContactMe($request)

@@ -11,7 +11,14 @@
 
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
 <link href="/css/app.css" type="text/css" rel="stylesheet">
+
 
 {{--Google Fonts--}}
 <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Tangerine" rel="stylesheet">
+
+{{--Font Awesome--}}
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+
