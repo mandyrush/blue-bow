@@ -9,9 +9,9 @@
 
             <div class="about-linda">
 
-                <header>About Me</header>
+                <header class="title is-1">About Me</header>
 
-                <span>
+                <span class="content is-large">
                     My name is Linda and I love making wedding veils and accessories. In fact it's on my list of things I love the most right along with my husband and kids and my cats (aka my other furry kids). In my spare time you'll find me in my sewing room drinking coffee from my blue kitty mug, watching Die Hard and working on my latest project.
                 </span>
 

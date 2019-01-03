@@ -1,5 +1,5 @@
 <div class="carousel-slider" id="carousel">
-    <header>My Work</header>
+    <header class="title is-1">My Work</header>
 
     <div id="myCarousel" class="carousel slide">
         <!-- Indicators -->
@@ -42,9 +42,8 @@
                     </div>
                 </div>
 
-                <div class="carousel-caption">
-                    <div>Pillbox Hat</div>
-                </div>
+                <div class="carousel-caption content is-large">Pillbox Hat</div>
+
             </div>
 
             <div class="slide-two carousel-item">
@@ -66,9 +65,8 @@
                     </div>
                 </div>
 
-                <div class="carousel-caption">
-                    <div>Pillbox Hat</div>
-                </div>
+                <div class="carousel-caption content is-large">Pillbox Hat</div>
+
             </div>
 
             <div class="slide-three carousel-item">
@@ -93,9 +91,8 @@
                     </div>
                 </div>
 
-                <div class="carousel-caption">
-                    <div>Pillbox Hat</div>
-                </div>
+                <div class="carousel-caption content is-large">Pillbox Hat</div>
+
             </div>
 
             <div class="slide-four carousel-item">
@@ -117,9 +114,8 @@
                     </div>
                 </div>
 
-                <div class="carousel-caption">
-                    <div>Pillbox Hat</div>
-                </div>
+                <div class="carousel-caption content is-large">Pillbox Hat</div>
+
             </div>
 
             <div class="slide-five carousel-item">
@@ -141,9 +137,8 @@
                     </div>
                 </div>
 
-                <div class="carousel-caption">
-                    <div>Pillbox Hat</div>
-                </div>
+                <div class="carousel-caption content is-large">Pillbox Hat</div>
+
             </div>
 
         </div>
@@ -158,7 +153,7 @@
     </div>
 
     <div class="link-to-gallery">
-        <a href="/mywork">View More</a>
+        <a href="/mywork" class="button is-outlined is-medium">View More</a>
     </div>
 
 </div>

@@ -45,7 +45,7 @@
             images.setAttribute('class', 'images');
 
             cardTitle = document.createElement('div');
-            cardTitle.setAttribute('class', 'card-title');
+            cardTitle.setAttribute('class', 'card-title content is-large');
 
             featuredImage = document.createElement('img');
             featuredImage.setAttribute('class', 'featured-image');
