@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('layouts.master-layout')
 
 @section('title', 'Welcome to')
 
@@ -11,7 +11,7 @@
         </div>
 
         <div class="banner">
-            <img src="/images/banner.jpg" alt="Three brides wearing wedding veils" class="banner-img">
+            <img src="/images/banner/banner.jpg" alt="Three brides wearing wedding veils" class="banner-img">
         </div>
 
     </div>

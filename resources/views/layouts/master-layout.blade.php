@@ -13,6 +13,5 @@
 
         @include ('pages.about')
     </div>
-
 </body>
 </html>

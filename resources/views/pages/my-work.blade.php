@@ -1,4 +1,4 @@
-@extends('layouts.mywork')
+@extends('layouts.my-work-layout')
 
 @section('title', 'Welcome to')
 
