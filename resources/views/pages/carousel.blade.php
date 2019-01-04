@@ -7,8 +7,6 @@
             <li class="indicator1 active"></li>
             <li class="indicator2"></li>
             <li class="indicator3"></li>
-            <li class="indicator4"></li>
-            <li class="indicator5"></li>
         </ol>
 
         <!-- Wrapper for slides -->
@@ -17,128 +15,95 @@
             <div class="slide-one carousel-item active">
                 <div class="carousel-images">
                     <div class="lg-img">
-                        <img src="/images/brittany-hat-front.jpg" alt="">
+                        <img src="/images/carousel/shandra/featured_img.jpg" alt="">
                     </div>
 
                     <div class="sm-images">
                         <div class="sm-img-one">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
+                            <img src="/images/carousel/shandra/thumbnail_1.jpg" alt="">
                         </div>
                         <div class="sm-img-two">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
+                            <img src="/images/carousel/shandra/thumbnail_2.jpg" alt="">
                         </div>
                         <div class="sm-img-three">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
+                            <img src="/images/carousel/shandra/thumbnail_4.jpg" alt="">
                         </div>
                         <div class="sm-img-four">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
+                            <img src="/images/carousel/shandra/thumbnail_3.jpg" alt="">
                         </div>
                         <div class="sm-img-five">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
+                            <img src="/images/carousel/shandra/thumbnail_5.jpg" alt="">
                         </div>
                         <div class="sm-img-six">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
+                            <img src="/images/carousel/shandra/thumbnail_6.jpg" alt="">
                         </div>
                     </div>
                 </div>
 
-                <div class="carousel-caption content is-large">Pillbox Hat</div>
-
+                <div class="carousel-caption content is-large">Lace Cathedral Veil</div>
             </div>
 
             <div class="slide-two carousel-item">
                 <div class="carousel-images">
                     <div class="lg-img">
-                        <img src="/images/brittany-hat-front.jpg" alt="">
+                        <img src="/images/carousel/nicki/featured_img.jpg" alt="">
                     </div>
 
                     <div class="sm-images">
-                       <div class="sm-img-one">
-                           <img src="/images/brittany-hat-back.jpg" alt="">
-                       </div>
+                        <div class="sm-img-one">
+                            <img src="/images/carousel/nicki/thumbnail_3.jpg" alt="">
+                        </div>
                         <div class="sm-img-two">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
+                            <img src="/images/carousel/nicki/thumbnail_1.jpg" alt="">
                         </div>
                         <div class="sm-img-three">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
+                            <img src="/images/carousel/nicki/thumbnail_2.jpg" alt="">
+                        </div>
+                        <div class="sm-img-four">
+                            <img src="/images/carousel/nicki/thumbnail_5.jpg" alt="">
+                        </div>
+                        <div class="sm-img-five">
+                            <img src="/images/carousel/nicki/thumbnail_4.jpg" alt="">
+                        </div>
+                        <div class="sm-img-six">
+                            <img src="/images/carousel/nicki/thumbnail_6.jpg" alt="">
                         </div>
                     </div>
                 </div>
 
-                <div class="carousel-caption content is-large">Pillbox Hat</div>
-
+                <div class="carousel-caption content is-large">Wedding Dress & Birdcage Veil</div>
             </div>
+
 
             <div class="slide-three carousel-item">
                 <div class="carousel-images">
                     <div class="lg-img">
-                        <img src="/images/brittany-hat-front.jpg" alt="">
+                        <img src="/images/carousel/sarah/featured_img.jpg" alt="">
                     </div>
 
                     <div class="sm-images">
                         <div class="sm-img-one">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
+                            <img src="/images/carousel/sarah/thumbnail_1.jpg" alt="">
                         </div>
                         <div class="sm-img-two">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
+                            <img src="/images/carousel/sarah/thumbnail_2.jpg" alt="">
                         </div>
                         <div class="sm-img-three">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
+                            <img src="/images/carousel/sarah/thumbnail_3.jpg" alt="">
                         </div>
                         <div class="sm-img-four">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
+                            <img src="/images/carousel/sarah/thumbnail_4.jpg" alt="">
+                        </div>
+                        <div class="sm-img-five">
+                            <img src="/images/carousel/sarah/thumbnail_5.jpg" alt="">
+                        </div>
+                        <div class="sm-img-six">
+                            <img src="/images/carousel/sarah/thumbnail_6.jpg" alt="">
                         </div>
                     </div>
                 </div>
 
-                <div class="carousel-caption content is-large">Pillbox Hat</div>
-
-            </div>
-
-            <div class="slide-four carousel-item">
-                <div class="carousel-images">
-                    <div class="lg-img">
-                        <img src="/images/brittany-hat-front.jpg" alt="">
-                    </div>
-
-                    <div class="sm-images">
-                        <div class="sm-img-one">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
-                        </div>
-                        <div class="sm-img-two">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
-                        </div>
-                        <div class="sm-img-three">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-caption content is-large">Pillbox Hat</div>
-
-            </div>
-
-            <div class="slide-five carousel-item">
-                <div class="carousel-images">
-                    <div class="lg-img">
-                        <img src="/images/brittany-hat-front.jpg" alt="">
-                    </div>
-
-                    <div class="sm-images">
-                        <div class="sm-img-one">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
-                        </div>
-                        <div class="sm-img-two">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
-                        </div>
-                        <div class="sm-img-three">
-                            <img src="/images/brittany-hat-back.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="carousel-caption content is-large">Pillbox Hat</div>
-
+                <div class="carousel-caption content is-large">Floral Halo Veil</div>
             </div>
 
         </div>
@@ -176,12 +141,7 @@
         $(".indicator3").click(function(){
             carouselElement.carousel(2);
         });
-        $(".indicator4").click(function(){
-            carouselElement.carousel(3);
-        });
-        $(".indicator5").click(function(){
-            carouselElement.carousel(4);
-        });
+
 
         // Enable Carousel Controls
         $(".left").click(function(){

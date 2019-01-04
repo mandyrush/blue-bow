@@ -150,9 +150,9 @@ figure {
     background-color: $dark-gray;
     padding: 5rem 0;
     .lg-img {
-        max-height: 428px;
+        max-height: 430px;
         img {
-            max-height: 428px;
+            max-height: 430px;
             max-width: 100%;
             border: 2px solid $white;
         }
@@ -162,59 +162,17 @@ figure {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-gap: 1em;
-        max-height: 202px;
+        max-height: 208px;
         div {
             display: flex;
             justify-content: flex-end;
             align-items: center;
         }
         img {
-            max-height: 202px;
+            max-height: 208px;
             max-width: 100%;
             border: 2px solid $white;
         }
-    }
-}
-
-.slide-two {
-    .sm-img-two {
-        grid-row: 1/2;
-        grid-column: 3/4;
-    }
-    .sm-img-three {
-        grid-row: 2/3;
-        grid-column: 2/3;
-    }
-}
-
-.slide-three {
-    .sm-img-two {
-        grid-row: 1/2;
-        grid-column: 3/4;
-    }
-    .sm-img-three {
-        grid-row: 2/3;
-        grid-column: 1/2;
-    }
-    .sm-img-four {
-        grid-row: 2/3;
-        grid-column: 3/4;
-    }
-
-}
-
-.slide-four {
-    .sm-img-one {
-        grid-row: 1/2;
-        grid-column: 2/3;
-    }
-    .sm-img-two {
-        grid-row: 2/3;
-        grid-column: 1/2;
-    }
-    .sm-img-three {
-        grid-row: 2/3;
-        grid-column: 3/4;
     }
 }
 
