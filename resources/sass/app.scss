@@ -16,8 +16,8 @@ $dark-gray: rgba(116, 118, 120, 1);
 $lt-gray: #E3E4E4;
 
 //Fonts
-$primary-font: serif;
 $fancy-font: 'Tangerine', cursive;
+$primary-font:'Quicksand', sans-serif;
 
 //Font Sizes
 $lg-font: 6vw;
@@ -59,6 +59,7 @@ figure {
     grid-template-columns: 50% 50%;
     grid-column-gap: 1em;
     padding: 2rem;
+    margin-top: 25%;
 }
 
 .about-linda {
@@ -72,9 +73,11 @@ figure {
         font-family: $fancy-font;
         font-weight: normal;
         color: $white;
+        //text-shadow: 1.5px 2px 1px rgba(120, 120, 120, 1);
     }
     span {
         color: $white;
+        //text-shadow: .5px 1px .5px rgba(120, 120, 120, 1);
     }
 }
 
@@ -120,7 +123,7 @@ figure {
 
 //Carousel-slider
 .carousel-slider {
-    margin: 25% 0 15% 0;
+    margin: 25% 0 25% 0;
     box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
     border-top: 1px solid rgba(50, 50, 50, 0.3);
     background-color: $white;
@@ -149,6 +152,7 @@ figure {
     grid-gap: 1em;
     background-color: $dark-gray;
     padding: 5rem 0;
+    margin-bottom: .5rem;
     .lg-img {
         max-height: 430px;
         img {
@@ -181,7 +185,7 @@ figure {
     justify-content: flex-end;
     padding: 1rem;
     a {
-        border: 2px solid $blue;
+        border: 1px solid $blue;
         color: $blue;
         border-radius: 15px;
         &:hover { color: $white; background-color: $blue; text-decoration: none; }
@@ -195,7 +199,7 @@ figure {
     justify-content: space-around;
     align-items: baseline;
     width: 100%;
-    padding: 2rem 0;
+    padding: 4rem 0 1.5rem 0;
     header {
         padding-left: 2rem;
     }
@@ -208,13 +212,13 @@ figure {
         &:visited { color: $white; }
         &:hover { color: $white; text-decoration: none; }
         &:active { color: $white; }
-        font-family: $fancy-font;
-        text-shadow: 1.5px 2px 1px rgba(120, 120, 120, 1);
         .logo {
             color: $white;
             font-weight: normal;
             font-size: $lg-font;
             position: relative;
+            font-family: $fancy-font;
+            text-shadow: 1.5px 2px 1px rgba(120, 120, 120, 1);
         }
         .logo-description {
             color: $white;
@@ -225,6 +229,7 @@ figure {
             position: absolute;
             bottom: .1rem;
             z-index: 5;
+            text-shadow: .5px 1px .5px rgba(120, 120, 120, 1);
         }
     }
 }
@@ -235,6 +240,7 @@ nav a {
     &:hover { color: $white; text-decoration: none; }
     &:active { color: $white; }
     padding: 0 0 0 3.5rem;
+    text-shadow: .5px 1px .5px rgba(120, 120, 120, 1);
 }
 
 @media (max-width: 1200px) {
@@ -280,8 +286,10 @@ nav a {
     width: 100%;
 }
 .email-form {
-    background-color: $lt-gray;
-    padding: 2rem 1.5rem;
+    background-color: rgba(0, 94, 160, 0.5);
+    border: 2px solid $white;
+    border-radius: 5px;
+    padding: 3rem 1.5rem 5rem 1.5rem;
     height: 100%;
     box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
     header {
@@ -291,7 +299,8 @@ nav a {
         width: 100%;
         font-family: $fancy-font;
         font-weight: normal;
-        color: $blue;
+        color: $white;
+        padding-bottom: 3rem;
     }
     form {
         display: grid;
@@ -302,8 +311,13 @@ nav a {
             flex-direction: column;
             width: 100%;
             padding: 0 3rem;
+            .field {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-gap: 1em;
+            }
             label {
-                color: $blue;
+                color: $white;
                 padding-top: .5rem;
                 font-family: $primary-font;
             }
@@ -344,6 +358,10 @@ nav a {
             grid-template-columns: auto;
             .form-column {
                 padding: 0 1.5rem;
+                .field {
+                    display: flex;
+                    flex-direction: column;
+                }
             }
         }
     }

@@ -1,7 +1,7 @@
 <header class="col-lg-5">
     <a href="/">
         <div class="logo title is-1">The Little Blue Bow</div>
-        <div class="logo-description subtitle is-3">Handmade Wedding Veils and Accessories</div>
+        <div class="logo-description subtitle is-5">Handmade Wedding Veils and Accessories</div>
 
     </a>
 </header>

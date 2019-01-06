@@ -16,7 +16,7 @@
 
 
 {{--Google Fonts--}}
-<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Tangerine" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes|Tangerine|Quicksand:400" rel="stylesheet">
 
 {{--Font Awesome--}}
 <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
