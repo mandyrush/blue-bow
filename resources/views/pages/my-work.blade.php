@@ -66,54 +66,140 @@
 
         let cardOne = new GalleryCard(
             [
-                '/images/brittany-hat-front.jpg',
-                '/images/brittany-hat-back2.jpg',
-                '/images/brittany-hat-front.jpg',
-                '/images/brittany-hat-back2.jpg',
-                '/images/brittany-hat-front.jpg',
-                '/images/brittany-hat-back2.jpg'
+                '/images/gallery/renee/thumbnail_1',
+                '/images/gallery/renee/thumbnail_2',
+                '/images/gallery/renee/thumbnail_3',
+                '/images/gallery/renee/thumbnail_4'
             ],
-            'Pill Box Hat'
+            'Cathedral Veil with Lace Trim'
         );
 
         let cardTwo = new GalleryCard(
             [
-                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg',
-                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg',
-                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg',
-                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg',
-                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg',
-                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg'
+                '/images/gallery/brooke/thumbnail_1',
+                '/images/gallery/brooke/thumbnail_5',
+                '/images/gallery/brooke/thumbnail_3',
+                '/images/gallery/brooke/thumbnail_4',
+                '/images/gallery/brooke/thumbnail_2'
             ],
-            'Some other puppy'
+            'Cathedral Veil with Pearl Accents'
         );
 
         let cardThree = new GalleryCard(
             [
-                'http://www.smalldogbreeds.info/wp-content/uploads/2016/02/teddy-bear-pomeranian.gif',
-                'https://i.pinimg.com/564x/a6/c5/fa/a6c5fadc3b4f5963908a6a40ac0c6f96.jpg',
-                'http://www.longislandpuppies.com/templates/Glow/images/breeds/p/pomeranian1.jpg',
-                'http://images5.fanpop.com/image/photos/25800000/puppies-dogs-25835177-120-112.jpg',
-                'https://i.pinimg.com/236x/4c/97/7f/4c977f7567442e36d86dbd568c5bab8b.jpg',
-                'https://i.pinimg.com/236x/1e/b6/cd/1eb6cdb576ac3d8ad2708b07e2c5f2ee.jpg'
+                '/images/gallery/sarah_veil2/thumbnail_1',
+                '/images/gallery/sarah_veil2/thumbnail_2',
+                '/images/gallery/sarah_veil2/thumbnail_3',
+                '/images/gallery/sarah_veil2/thumbnail_4',
+                '/images/gallery/sarah_veil2/thumbnail_5'
             ],
-            'Teddy Bear Pomeranian'
+            'Floral Halo Veil'
         );
 
         let cardFour = new GalleryCard(
             [
-                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg',
-                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg',
-                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg',
-                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg',
-                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg',
-                'https://pbs.twimg.com/profile_images/497043545505947648/ESngUXG0.jpeg'
+                '/images/gallery/nicki/thumbnail_1',
+                '/images/gallery/nicki/thumbnail_2',
+                '/images/gallery/nicki/thumbnail_3',
+                '/images/gallery/nicki/thumbnail_5',
+                '/images/gallery/nicki/thumbnail_4',
+                '/images/gallery/nicki/thumbnail_6'
             ],
-            'Some other puppy'
+            'Tea Length Wedding Dress & Birdcage Veil'
         );
 
+        let cardFive = new GalleryCard(
+            [
+                '/images/gallery/black_red_bride/thumbnail_2',
+                '/images/gallery/black_red_bride/thumbnail_1',
+                '/images/gallery/black_red_bride/thumbnail_4',
+                '/images/gallery/black_red_bride/thumbnail_3'
+            ],
+            'Birdcage Veil with Feather Embellishment'
+        );
+
+        let cardSix = new GalleryCard(
+            [
+                '/images/gallery/shandra/thumbnail_1',
+                '/images/gallery/shandra/thumbnail_2',
+                '/images/gallery/shandra/thumbnail_3',
+                '/images/gallery/shandra/thumbnail_4',
+                '/images/gallery/shandra/thumbnail_5',
+                '/images/gallery/shandra/thumbnail_6'
+            ],
+            'Lace Cathedral Veil'
+        );
+
+        let cardSeven = new GalleryCard(
+            [
+                '/images/gallery/shandra_halos/thumbnail_5',
+                '/images/gallery/shandra_halos/thumbnail_6',
+                '/images/gallery/shandra_halos/thumbnail_4',
+                '/images/gallery/shandra_halos/thumbnail_1',
+                '/images/gallery/shandra_halos/thumbnail_2',
+                '/images/gallery/shandra_halos/thumbnail_3'
+
+            ],
+            'Flower Girl Floral Halo'
+        );
+
+        let cardEight = new GalleryCard(
+            [
+                '/images/gallery/sarah/thumbnail_1',
+                '/images/gallery/sarah/thumbnail_2',
+                '/images/gallery/sarah/thumbnail_3',
+                '/images/gallery/sarah/thumbnail_4',
+                '/images/gallery/sarah/thumbnail_5',
+                '/images/gallery/sarah/thumbnail_6'
+            ],
+            'Floral Halo Veil'
+        );
+
+        let cardNine = new GalleryCard(
+            [
+                '/images/gallery/amanda/thumbnail_1',
+                '/images/gallery/amanda/thumbnail_2',
+                '/images/gallery/amanda/thumbnail_3',
+                '/images/gallery/amanda/thumbnail_4'
+            ],
+            'Double Tiered Veil with Pearl Edging'
+        );
+
+        let cardTen = new GalleryCard(
+            [
+                '/images/gallery/tacy/thumbnail_1',
+                '/images/gallery/tacy/thumbnail_2',
+                '/images/gallery/tacy/thumbnail_3',
+                '/images/gallery/tacy/thumbnail_4',
+                '/images/gallery/tacy/thumbnail_5'
+            ],
+            'Wedding Dress with Asymmetrical Hem & Birdcage Veil'
+        );
+
+        let cardEleven = new GalleryCard(
+            [
+                '/images/gallery/rhinestone_bride/thumbnail_1',
+                '/images/gallery/rhinestone_bride/thumbnail_2',
+                '/images/gallery/rhinestone_bride/thumbnail_3',
+                '/images/gallery/rhinestone_bride/thumbnail_4',
+                '/images/gallery/rhinestone_bride/thumbnail_5'
+            ],
+            'Cathedral Veil with Rhinestone Embellishments'
+        );
+
+        let cardTwelve = new GalleryCard(
+            [
+                '/images/gallery/georgia/thumbnail_1',
+                '/images/gallery/georgia/thumbnail_2',
+                '/images/gallery/georgia/thumbnail_3'
+            ],
+            'Summer Dress with Accent Bow'
+        );
+
+
+
         let cards = [];
-        cards.push(cardOne, cardTwo, cardThree, cardFour);
+        cards.push(cardOne, cardTwo, cardThree, cardFour, cardFive, cardSix, cardSeven, cardEight, cardNine, cardTen, cardEleven, cardTwelve);
 
 
         for (let j = 0; j < cards.length; j++) {
@@ -124,7 +210,7 @@
             let thumbnailBar = document.querySelectorAll('.thumbnails');
             let cardTitle = document.querySelectorAll('.card-title');
 
-            featuredImage[j].setAttribute('src', cards[j].thumbnails[0]);
+            featuredImage[j].setAttribute('src', cards[j].thumbnails[0] + '_lg.jpg');
 
             let header = document.createElement('header');
             cardTitle[j].appendChild(header);
@@ -133,11 +219,11 @@
             for (let i = 0; i < cards[j].thumbnails.length; i++) {
 
                 let thumbnail = document.createElement('img');
-                thumbnail.setAttribute('src', cards[j].thumbnails[i]);
+                thumbnail.setAttribute('src', cards[j].thumbnails[i] + '.jpg');
                 thumbnailBar[j].appendChild(thumbnail);
 
                 thumbnail.onclick = function(){
-                    featuredImage[j].setAttribute('src', cards[j].thumbnails[i]);
+                    featuredImage[j].setAttribute('src', cards[j].thumbnails[i] + '_lg.jpg');
                 };
 
             }

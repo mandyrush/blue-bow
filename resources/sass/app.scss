@@ -359,21 +359,22 @@ nav a {
 //Gallery Page
 .gallery {
     background-color: $lt-gray;
-    padding-top: 3rem;
     .gallery-card {
         display: grid;
         grid-template-rows: repeat(2, auto);
-        margin-bottom: 3rem;
         background-color: $dark-gray;
-        padding: 5rem 0 3rem 0;
+        border-top: 3.5vh solid $white;
+        border-bottom: 3.5vh solid $white;
+        padding: 1rem 0;
         .images {
             display: grid;
-            grid-template-columns: repeat(2, 50%);
-            //grid-column-gap: .5em;
+            grid-template-columns: 45% 55%;
+            grid-gap: 1em;
             .featured-image {
-                max-height: 428px;
+                max-height: 640px;
                 max-width: 100%;
                 border: 2px solid $white;
+                margin: auto;
             }
             .thumbnails {
                 margin: 0;
@@ -383,10 +384,11 @@ nav a {
                 grid-gap: 1em;
                 list-style: none;
                 img {
-                    max-height: 202px;
+                    max-height: 350px;
                     max-width: 100%;
                     border: 2px solid $white;
                     cursor: pointer;
+                    margin: auto;
                 }
             }
         }
@@ -395,7 +397,8 @@ nav a {
             justify-content: center;
             align-items: center;
             color: $white;
-            padding-top: 2rem;
+            margin-bottom: 0;
+            margin-top: .25rem;
         }
     }
 }
