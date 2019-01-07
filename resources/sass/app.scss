@@ -14,6 +14,9 @@ $white: rgba(255, 255, 255, 1);
 $blue: rgba(10, 51, 149, 1);
 $dark-gray: rgba(116, 118, 120, 1);
 $lt-gray: #E3E4E4;
+$semi-opaque: rgba(0, 94, 160, 0.5);
+$opaque: rgba(0, 94, 160, 0);
+
 
 //Fonts
 $fancy-font: 'Tangerine', cursive;
@@ -39,6 +42,10 @@ figure {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+}
+
+.gradient-bg {
+    background-image: linear-gradient($opaque, $semi-opaque, $white);
 }
 
 .home {
@@ -69,15 +76,18 @@ figure {
     justify-content: center;
     padding-right: 2rem;
     header {
-        padding-bottom: 2rem;
+        padding: 2rem 0;
         font-family: $fancy-font;
         font-weight: normal;
         color: $white;
-        //text-shadow: 1.5px 2px 1px rgba(120, 120, 120, 1);
+        width: 100%;
+        text-align: center;
+        border-top: 2px solid $white;
     }
     span {
-        color: $white;
-        //text-shadow: .5px 1px .5px rgba(120, 120, 120, 1);
+        color: $blue;
+        border-bottom: 2px solid $blue;
+        padding-bottom: 2rem;
     }
 }
 
@@ -88,7 +98,13 @@ figure {
         align-items: center;
         justify-content: center;
         padding-bottom: 2rem;
+        .linda-pic {
+            transform: none;
+            margin: 0 0 2rem 0;
+
+        }
         .about-linda {
+            padding-right: 0;
             header {
                 padding-top: 2rem;
             }
@@ -116,8 +132,10 @@ figure {
 
 .linda-pic {
     border: 10px solid $white;
-    max-width: 100%;
+    max-width: 75%;
     height: auto;
+    transform: rotate(-10deg);
+    margin: 0 0 2.5% 15%;
 }
 
 
@@ -286,7 +304,7 @@ nav a {
     width: 100%;
 }
 .email-form {
-    background-color: rgba(0, 94, 160, 0.5);
+    background-color: $semi-opaque;
     border: 2px solid $white;
     border-radius: 5px;
     padding: 3rem 1.5rem 5rem 1.5rem;
@@ -387,7 +405,7 @@ nav a {
         .images {
             display: grid;
             grid-template-columns: 45% 55%;
-            grid-gap: 1em;
+            grid-gap: .5em;
             .featured-image {
                 max-height: 640px;
                 max-width: 100%;
@@ -395,11 +413,12 @@ nav a {
                 margin: auto;
             }
             .thumbnails {
-                margin: 0;
+                margin: 0 2rem 0 0;
+                padding: 4.5rem 0;
                 display: grid;
                 grid-template-columns: repeat(3, auto);
                 grid-template-rows: repeat(2, auto);
-                grid-gap: 1em;
+                grid-gap: .5em;
                 list-style: none;
                 img {
                     max-height: 350px;
@@ -417,6 +436,23 @@ nav a {
             color: $white;
             margin-bottom: 0;
             margin-top: .25rem;
+        }
+    }
+}
+
+@media (max-width: 796px) {
+    .gallery {
+        .gallery-card {
+            .images {
+                grid-template-columns: auto;
+                margin: 0 1rem;
+                .thumbnails {
+                    margin: 0 1rem;
+                }
+            }
+            .card-title {
+                text-align: center;
+            }
         }
     }
 }

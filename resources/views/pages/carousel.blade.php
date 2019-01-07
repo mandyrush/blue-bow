@@ -71,7 +71,7 @@
                     </div>
                 </div>
 
-                <div class="carousel-caption content is-large">Wedding Dress & Birdcage Veil</div>
+                <div class="carousel-caption content is-large">Tea Length Wedding Dress & Birdcage Veil</div>
             </div>
 
 

@@ -9,9 +9,11 @@
     @include ('pages.carousel')
 
     <div class="dark-bg">
-        @include ('pages.contact')
+        <div class="gradient-bg">
+            @include ('pages.contact')
 
-        @include ('pages.about')
+            @include ('pages.about')
+        </div>
     </div>
 </body>
 </html>
