@@ -63,6 +63,8 @@
             images.appendChild(thumbnails);
         }
 
+        //Crop ratio for featured images = 4:5 (8:10), min-height = 640px
+        //Crop ratio for thumbnails = 1:1, height = 500px x 500px
 
         let cardOne = new GalleryCard(
             [

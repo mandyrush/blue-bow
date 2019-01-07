@@ -2,7 +2,7 @@
 
     <div class="email-form">
 
-        <header class="row col-md-12 title is-1">Contact Me</header>
+        <header class="row col-md-12 title section-title">Contact Me</header>
 
         <form method="POST" action="/email">
             @csrf

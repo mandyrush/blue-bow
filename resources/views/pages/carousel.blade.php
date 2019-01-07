@@ -1,5 +1,5 @@
 <div class="carousel-slider" id="carousel">
-    <header class="title is-1">My Work</header>
+    <header class="section-title">My Work</header>
 
     <div id="myCarousel" class="carousel slide">
         <!-- Indicators -->
@@ -71,7 +71,7 @@
                     </div>
                 </div>
 
-                <div class="carousel-caption content is-large">Tea Length Wedding Dress & Birdcage Veil</div>
+                <div class="carousel-caption content">Tea Length Wedding Dress & Birdcage Veil</div>
             </div>
 
 

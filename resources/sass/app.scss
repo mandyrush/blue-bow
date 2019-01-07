@@ -22,8 +22,12 @@ $opaque: rgba(0, 94, 160, 0);
 $fancy-font: 'Tangerine', cursive;
 $primary-font:'Quicksand', sans-serif;
 
+
 //Font Sizes
 $lg-font: 6vw;
+.section-title {
+    font-size: 3.5rem;
+}
 
 
 body {
@@ -46,6 +50,7 @@ figure {
 
 .gradient-bg {
     background-image: linear-gradient($opaque, $semi-opaque, $white);
+    box-shadow: 0 -4px 7px 0 rgba(50, 50, 50, 0.3);
 }
 
 .home {
@@ -90,6 +95,7 @@ figure {
         padding-bottom: 2rem;
         font-family: 'Grand Hotel', cursive;
         font-size: 2.2rem;
+        text-align: center;
     }
 }
 
@@ -138,6 +144,7 @@ figure {
     height: auto;
     transform: rotate(-10deg);
     margin: 0 0 2.5% 15%;
+    box-shadow: 2px 5px 8px 0 rgba(50, 50, 50, 0.4);
 }
 
 
@@ -152,11 +159,9 @@ figure {
         justify-content: center;
         align-items: center;
         width: 100%;
-        padding: .5rem 0;
         font-family: $fancy-font;
         font-weight: normal;
         color: $blue;
-        margin-top: .5rem;
     }
 }
 
@@ -197,6 +202,16 @@ figure {
             max-width: 100%;
             border: 2px solid $white;
         }
+    }
+}
+
+.carousel-caption {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 671px) {
+    .carousel-caption {
+        font-size: 1rem;
     }
 }
 
@@ -396,16 +411,15 @@ nav a {
 
 //Gallery Page
 .gallery {
-    //background-color: $lt-gray;
-    border-top: 3.5vh solid $lt-gray;
-    border-bottom: 3.5vh solid $lt-gray;
+    background-color: $lt-gray;
+    border-top: 10px solid $lt-gray;
     .gallery-card {
         display: grid;
         grid-template-rows: repeat(2, auto);
         background-color: $dark-gray;
-        border-top: 3.5vh solid $lt-gray;
-        border-bottom: 3.5vh solid $lt-gray;
+        margin-bottom: 12vh;
         padding: 1rem 0;
+        box-shadow: 0 3px 6px 0 rgba(50, 50, 50, 0.3), 0 -3px 6px 0 rgba(50, 50, 50, 0.3);
         .images {
             display: grid;
             grid-template-columns: 45% 55%;
