@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <div class="dark-bg home">
+    <div class="dark-bg home-dkbg">
 
         <div class="navigation">
             @include('partials.header')
