@@ -7,26 +7,37 @@
         </a>
     </header>
     <nav class="col-sm-5">
-        <a href="/#carousel" class="nav-item my-work-lk is-size-4">My Work</a>
-        <a href="/#contact-me" class="nav-item contact-me-lk is-size-4">Contact Me</a>
-        <a href="/#about-me" class="nav-item about-me-lk is-size-4">About Me</a>
+        <a href="/#carousel" class="nav-item is-size-4">My Work</a>
+        <a href="/#contact-me" class="nav-item is-size-4">Contact Me</a>
+        <a href="/#about-me" class="nav-item is-size-4">About Me</a>
     </nav>
 </div>
+
+<i class="btn-to-top fas fa-caret-up"></i>
 
 
 <script>
     let prevScrollpos = window.pageYOffset;
 
     window.onscroll = function() {
+
         let currentScrollPos = window.pageYOffset;
         let navigation = document.querySelector('.navigation');
+        let btnToTop = document.querySelector('.btn-to-top');
 
         if (prevScrollpos > currentScrollPos) {
             navigation.style.top = '0px';
+            btnToTop.style.display = 'block';
         } else {
             navigation.style.top = '-40vh';
+            btnToTop.style.display = 'none';
         }
+
         prevScrollpos = currentScrollPos;
+
+        if (document.documentElement.scrollTop < window.innerHeight) {
+            btnToTop.style.display = 'none';
+        }
 
 
         let scrlTop = document.documentElement.scrollTop;
@@ -59,15 +70,11 @@
             logo.classList.remove('static-logo');
             logo.classList.add('scrl-logo');
         }
-    };
 
-    // let myWorkLk =  document.querySelector('.my-work-lk');
-    // let contactMeLk = document.querySelector('.contact-me-lk');
-    // let aboutMeLk = document.querySelector('.about-me-lk');
-    //
-    // aboutMeLk.onclick = function() {
-    //     let navigation = document.querySelector('.navigation');
-    //
-    // }
+        document.querySelector('.btn-to-top').onclick = function() {
+            document.documentElement.scrollTop = 0;
+        }
+
+    };
 
 </script>

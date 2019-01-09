@@ -301,6 +301,18 @@ nav a {
     &:active { color: $white; }
 }
 
+.btn-to-top {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    color: $white;
+    font-size: 4rem;
+    margin-left: .5rem;
+    padding: 0 .5rem;
+    border-radius: 1rem;
+}
+
 @media (max-width: 1200px) {
     .navigation {
         .nav-content {
@@ -314,7 +326,7 @@ nav a {
                         display: flex;
                         justify-content: center;
                         align-items: center;
-                        font-size: 4rem;
+                        font-size: 3rem;
                     }
                     .logo-description {
                         justify-content: center;
@@ -337,12 +349,13 @@ nav a {
                 }
             }
         }
-
     }
     .banner {
         padding-top: 40vh;
     }
 }
+
+
 .static-logo {
     font-size: 6vw;
 }

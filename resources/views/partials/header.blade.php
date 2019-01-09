@@ -62,7 +62,6 @@
     };
 
 
-
     let myWorkBtn = document.querySelector('.my-work-btn');
     let contactBtn = document.querySelector('.contact-btn');
     let aboutMeBtn = document.querySelector('.about-me-btn');
@@ -84,7 +83,5 @@
             behavior: 'smooth'
         });
     };
-
-
 
 </script>
