@@ -39,6 +39,8 @@ figure {
     margin-bottom: 0;
 }
 
+button:focus {outline:0;}
+
 
 //Backgrounds
 .dark-bg {
@@ -159,6 +161,7 @@ figure {
     box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
     border-top: 1px solid rgba(50, 50, 50, 0.3);
     background-color: $white;
+
     header {
         display: flex;
         justify-content: center;
@@ -282,13 +285,20 @@ figure {
     }
 }
 
+nav button, nav a {
+    color: $white;
+    padding: 0 0 0 3.5rem;
+    text-shadow: .5px 1px .5px rgba(120, 120, 120, 1);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 nav a {
     &:link { color: $white; }
     &:visited { color: $white; }
     &:hover { color: $white; text-decoration: none; }
     &:active { color: $white; }
-    padding: 0 0 0 3.5rem;
-    text-shadow: .5px 1px .5px rgba(120, 120, 120, 1);
 }
 
 @media (max-width: 1200px) {
@@ -319,7 +329,7 @@ nav a {
                 justify-content: center;
                 margin-top: 1rem;
                 padding-left: 0;
-                a {
+                button, a {
                     width: 100%;
                     display: flex;
                     align-items: center;

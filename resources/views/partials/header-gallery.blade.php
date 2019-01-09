@@ -7,9 +7,9 @@
         </a>
     </header>
     <nav class="col-sm-5">
-        <button class="nav-item my-work-btn is-size-4">My Work</button>
-        <button class="nav-item contact-btn is-size-4">Contact Me</button>
-        <button class="nav-item about-me-btn is-size-4">About Me</button>
+        <a href="/#carousel" class="nav-item my-work-lk is-size-4">My Work</a>
+        <a href="/#contact-me" class="nav-item contact-me-lk is-size-4">Contact Me</a>
+        <a href="/#about-me" class="nav-item about-me-lk is-size-4">About Me</a>
     </nav>
 </div>
 
@@ -61,30 +61,13 @@
         }
     };
 
-
-
-    let myWorkBtn = document.querySelector('.my-work-btn');
-    let contactBtn = document.querySelector('.contact-btn');
-    let aboutMeBtn = document.querySelector('.about-me-btn');
-
-    myWorkBtn.onclick = function() {
-        document.querySelector('.carousel-slider').scrollIntoView ({
-            behavior: 'smooth'
-        });
-    };
-
-    contactBtn.onclick = function() {
-        document.querySelector('.contact').scrollIntoView ({
-            behavior: 'smooth'
-        });
-    };
-
-    aboutMeBtn.onclick = function() {
-        document.querySelector('.about-content').scrollIntoView ({
-            behavior: 'smooth'
-        });
-    };
-
-
+    // let myWorkLk =  document.querySelector('.my-work-lk');
+    // let contactMeLk = document.querySelector('.contact-me-lk');
+    // let aboutMeLk = document.querySelector('.about-me-lk');
+    //
+    // aboutMeLk.onclick = function() {
+    //     let navigation = document.querySelector('.navigation');
+    //
+    // }
 
 </script>

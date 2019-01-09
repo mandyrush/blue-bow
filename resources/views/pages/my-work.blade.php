@@ -7,7 +7,7 @@
     <div class="dark-bg my-work-dkbg">
 
         <div class="navigation">
-            @include('partials.header')
+            @include('partials.header-gallery')
         </div>
 
         <div class="gallery"></div>
