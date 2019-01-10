@@ -13,7 +13,7 @@
     </nav>
 </div>
 
-<i class="btn-to-top fas fa-caret-up"></i>
+<i class="btn-to-top fas fa-angle-up"></i>
 
 
 <script>
@@ -71,9 +71,12 @@
             logo.classList.add('scrl-logo');
         }
 
-        document.querySelector('.btn-to-top').onclick = function() {
-            document.documentElement.scrollTop = 0;
-        }
+
+        btnToTop.onclick = function() {
+            document.querySelector('.my-work-dkbg').scrollIntoView ({
+                behavior: 'smooth'
+            });
+        };
 
     };
 
