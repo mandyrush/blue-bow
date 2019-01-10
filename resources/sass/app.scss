@@ -32,7 +32,7 @@ $secondary-font: 'Grand Hotel', cursive;
 
 body {
     font-family: $primary-font;
-    background-color: $lt-gray;
+    background-color: $white;
 }
 
 figure {
@@ -79,7 +79,6 @@ button:focus {outline:0;}
     grid-template-columns: 50% 50%;
     grid-column-gap: 1em;
     padding: 2rem;
-    margin-top: 25%;
 }
 
 .about-linda {
@@ -137,12 +136,22 @@ button:focus {outline:0;}
     box-shadow: 0 7px 8px 0 rgba(50, 50, 50, 0.55);
 }
 
+.fancy-line {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10rem 0 5rem 0;
+    text-align: center;
+}
+
 
 //Images
 .banner-img {
     border: 10px solid $white;
     max-width: 100%;
     height: auto;
+    box-shadow: 2px 5px 8px 0 rgba(50, 50, 50, 0.4);
 }
 
 .linda-pic {
@@ -157,9 +166,8 @@ button:focus {outline:0;}
 
 //Carousel-slider
 .carousel-slider {
-    margin: 25% 0 25% 0;
-    box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
-    border-top: 1px solid rgba(50, 50, 50, 0.3);
+    margin-bottom: 25%;
+    box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3), 0 -1px 10px 0 rgba(50, 50, 50, 0.3);
     background-color: $white;
 
     header {
@@ -229,7 +237,7 @@ button:focus {outline:0;}
 .link-to-gallery {
     display: flex;
     justify-content: flex-end;
-    padding: 1rem;
+    padding: 1.1rem;
     a {
         border: 1px solid $blue;
         color: $blue;
@@ -366,8 +374,10 @@ nav a {
 
 //Forms
 .contact {
+    margin-bottom: 20%;
     padding: 5rem;
     width: 100%;
+    box-shadow: 0 -4px 7px 0 rgba(50, 50, 50, 0.3)
 }
 .email-form {
     background-color: $semi-opaque;
