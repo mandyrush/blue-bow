@@ -189,19 +189,9 @@
             'Cathedral Veil with Rhinestone Embellishments'
         );
 
-        let cardTwelve = new GalleryCard(
-            [
-                '/images/gallery/georgia/thumbnail_1',
-                '/images/gallery/georgia/thumbnail_2',
-                '/images/gallery/georgia/thumbnail_3'
-            ],
-            'Summer Dress with Accent Bow'
-        );
-
-
 
         let cards = [];
-        cards.push(cardOne, cardTwo, cardThree, cardFour, cardFive, cardSix, cardSeven, cardEight, cardNine, cardTen, cardEleven, cardTwelve);
+        cards.push(cardOne, cardTwo, cardThree, cardFour, cardFive, cardSix, cardSeven, cardEight, cardNine, cardTen, cardEleven);
 
 
         for (let j = 0; j < cards.length; j++) {
