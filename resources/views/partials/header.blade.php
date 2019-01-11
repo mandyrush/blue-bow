@@ -1,7 +1,7 @@
 <div class="nav-content">
     <header class="col-lg-5">
         <a href="/">
-            <div class="logo static-logo title">The Little Blue Bow</div>
+            <div class="logo static-logo title">Blue Bow Fashion</div>
             <div class="logo-description subtitle is-5">Handmade Wedding Veils and Accessories</div>
 
         </a>
