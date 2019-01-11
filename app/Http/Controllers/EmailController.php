@@ -13,7 +13,8 @@ class EmailController extends Controller
     public function send(Request $request) {
 
         $messages = [
-            'weddingDate.after' => 'The wedding date must be a future date.'
+            'weddingDate.after' => 'The wedding date must be a future date.',
+            'phone.numeric' => 'The phone must be a number with no spaces or dashes.'
         ];
 
         $validator = Validator::make($request->all(), [
@@ -21,7 +22,8 @@ class EmailController extends Controller
             'lastName' => 'required',
             'email' => ['required', 'email'],
             'phone' => 'nullable|numeric|digits:10',
-            'weddingDate' => 'nullable|after:today'
+            'weddingDate' => 'nullable|after:today',
+            'message' => 'required'
         ], $messages);
 
         if( $validator-> fails()) {

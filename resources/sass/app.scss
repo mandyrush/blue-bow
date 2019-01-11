@@ -417,8 +417,6 @@ nav a {
                 font-family: $primary-font;
             }
             .message {
-                max-height: 25rem;
-                margin-bottom: 1.3rem;
                 flex-grow: 1;
             }
             .submit {
@@ -426,6 +424,7 @@ nav a {
                 align-self: flex-end;
                 color: $blue;
                 cursor: pointer;
+                margin-top: 1rem;
             }
         }
         .contact.msg {
@@ -434,12 +433,20 @@ nav a {
             justify-content: space-between;
         }
         .help {
-            color: red;
+            color: #992600;
             font-size: medium;
+            font-weight: bold;
         }
     }
 }
 
+.input.is-danger, .textarea.is-danger {
+    border-color: #992600
+}
+
+.message:not(:last-child) {
+    margin-bottom: 0;
+}
 
 
 @media (max-width: 992px) {
