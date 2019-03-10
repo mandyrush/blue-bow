@@ -1,17 +1,17 @@
-<div class="nav-content">
-    <header class="col-lg-5">
-        <a href="/">
-            <div class="logo static-logo title">Blue Bow Fashion</div>
-            <div class="logo-description subtitle is-5">Handmade Wedding Veils and Accessories</div>
+{{--<div class="nav-content">--}}
+    {{--<header class="col-lg-5">--}}
+        {{--<a href="/">--}}
+            {{--<div class="logo static-logo title">Blue Bow Fashion</div>--}}
+            {{--<div class="logo-description subtitle is-5">Handmade Wedding Veils and Accessories</div>--}}
 
-        </a>
-    </header>
-    <nav class="col-sm-5">
-        <button class="nav-item my-work-btn is-size-4">My Work</button>
-        <button class="nav-item contact-btn is-size-4">Contact Me</button>
-        <button class="nav-item about-me-btn is-size-4">About Me</button>
-    </nav>
-</div>
+        {{--</a>--}}
+    {{--</header>--}}
+    {{--<nav class="col-sm-5">--}}
+        {{--<button class="nav-item my-work-btn is-size-4">My Work</button>--}}
+        {{--<button class="nav-item contact-btn is-size-4">Contact Me</button>--}}
+        {{--<button class="nav-item about-me-btn is-size-4">About Me</button>--}}
+    {{--</nav>--}}
+{{--</div>--}}
 
 
 {{--<script>--}}

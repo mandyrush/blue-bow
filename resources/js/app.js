@@ -19,8 +19,8 @@ window.Vue = require('vue');
 import MainMenu from './components/MainMenu'
 
 const app = new Vue({
+    el: '#app',
     components: {
-      MainMenu
-    },
-    el: '#app'
+        MainMenu
+    }
 });
