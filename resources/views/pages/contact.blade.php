@@ -49,7 +49,7 @@
 
             <div class="form-column contact-msg">
                 <label for="message" class="label">Message</label>
-                <textarea id="message" class="input message {{ $errors->has('message') ? 'is-danger' : '' }}" name="message" required>{{ old('message') }}</textarea>
+                <textarea id="message" class="textarea message {{ $errors->has('message') ? 'is-danger' : '' }}" name="message" required>{{ old('message') }}</textarea>
                 <div class="help">@foreach ($errors->get('message') as $error) {{ $error }} @endforeach</div>
 
                 <button type="submit" class="submit button">Submit</button>

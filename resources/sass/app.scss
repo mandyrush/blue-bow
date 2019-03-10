@@ -43,6 +43,16 @@ button:focus {outline:0;}
 
 
 //Backgrounds
+.main-bg {
+    height: 100vh;
+    position: relative;
+    .main-content {
+        width: 100%;
+        position: absolute;
+        z-index: 5;
+    }
+}
+
 .dark-bg {
     background-image: url('/images/blue-background.jpg');
     background-size: cover;
@@ -50,14 +60,14 @@ button:focus {outline:0;}
     width: 100%;
 }
 
-.home-dkbg {
-    max-height: 75vh;
+.main {
+    height: 75%;
     box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
 }
 
-.my-work-dkbg {
-    max-height: 75vh;
-    position: absolute;
+.lt-bg {
+    height: 25%;
+    background-color: $white;
 }
 
 .gradient-bg {
@@ -71,7 +81,6 @@ button:focus {outline:0;}
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 15%;
 }
 
 .about-content {
@@ -137,11 +146,12 @@ button:focus {outline:0;}
 }
 
 .fancy-line {
+    height: 25vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10rem 0 5rem 0;
+    margin-top: 10%;
     text-align: center;
 }
 
@@ -149,7 +159,7 @@ button:focus {outline:0;}
 //Images
 .banner-img {
     border: 10px solid $white;
-    max-width: 100%;
+    max-width: 85%;
     height: auto;
     box-shadow: 2px 5px 8px 0 rgba(50, 50, 50, 0.4);
 }
@@ -175,6 +185,7 @@ button:focus {outline:0;}
         justify-content: center;
         align-items: center;
         width: 100%;
+        max-height: 10vh;
         font-family: $fancy-font;
         font-weight: normal;
         color: $blue;
@@ -182,6 +193,10 @@ button:focus {outline:0;}
     .carousel-indicators {
         z-index: 1;
     }
+}
+
+.carousel-item {
+    max-height: 82vh;
 }
 
 @media (max-height: 315px) {
@@ -195,12 +210,12 @@ button:focus {outline:0;}
     grid-template-columns: repeat(2, auto);
     grid-gap: 1em;
     background-color: $dark-gray;
-    padding: 5rem 0;
+    padding: 1rem 0 5rem 0;
     margin-bottom: .5rem;
     .lg-img {
-        max-height: 430px;
+        max-height: 640px;
         img {
-            max-height: 430px;
+            max-height: 640px;
             max-width: 100%;
             border: 2px solid $white;
         }
@@ -210,14 +225,14 @@ button:focus {outline:0;}
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-gap: 1em;
-        max-height: 208px;
+        max-height: 640px;
         div {
             display: flex;
             justify-content: flex-end;
             align-items: center;
         }
         img {
-            max-height: 208px;
+            max-height: 350px;
             max-width: 100%;
             border: 2px solid $white;
         }
@@ -237,7 +252,9 @@ button:focus {outline:0;}
 .link-to-gallery {
     display: flex;
     justify-content: flex-end;
-    padding: 1.1rem;
+    align-items: center;
+    padding: 1rem;
+    max-height: 8vh;
     a {
         border: 1px solid $blue;
         color: $blue;
@@ -250,7 +267,6 @@ button:focus {outline:0;}
 //Navigation
 .navigation {
     width: 100%;
-    position: fixed;
     top: 0;
     transition: top .8s;
     z-index: 10;
@@ -258,7 +274,7 @@ button:focus {outline:0;}
         display: flex;
         justify-content: space-around;
         align-items: baseline;
-        padding: 4rem 0 1.5rem 0;
+        padding: 3rem 0 1.5rem 0;
         header {
             padding-left: 2rem;
         }
@@ -286,7 +302,7 @@ button:focus {outline:0;}
                 width: 100%;
                 position: absolute;
                 bottom: .1rem;
-                z-index: 5;
+                //z-index: 5;
                 text-shadow: .5px 1px .5px rgba(120, 120, 120, 1);
             }
         }
@@ -358,9 +374,6 @@ nav a {
                 }
             }
         }
-    }
-    .banner {
-        padding-top: 40vh;
     }
 }
 
@@ -480,7 +493,8 @@ nav a {
 .gallery {
     background-color: $lt-gray;
     border-top: 10px solid $lt-gray;
-    margin-top: 13.5rem;
+    margin-top: 0;
+    position: absolute;
     .gallery-card {
         display: grid;
         grid-template-rows: repeat(2, auto);
@@ -524,12 +538,6 @@ nav a {
             margin-top: .25rem;
         }
     }
-}
-
-@media (max-width: 1200px) {
-  .gallery {
-    margin-top: 20rem;
-  }
 }
 
 @media (max-width: 796px) {

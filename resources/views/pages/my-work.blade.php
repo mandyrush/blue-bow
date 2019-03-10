@@ -1,19 +1,10 @@
-@extends('layouts.my-work-layout')
+@extends('layouts.master')
 
 @section('title', 'Welcome to')
 
 @section('content')
 
-    <div class="dark-bg my-work-dkbg">
-
-        <div class="navigation">
-            @include('partials.header-gallery')
-        </div>
-
-        <div class="gallery"></div>
-
-    </div>
-
+    <div class="gallery"></div>
 
 
     {{--Gallery Structure--}}
@@ -24,8 +15,6 @@
                  {{--featuredImage--}}
                  {{--thumbnails--}}
              {{--cardTitle--}}
-
-
 
     <script>
         class GalleryCard {
@@ -180,18 +169,29 @@
 
         let cardEleven = new GalleryCard(
             [
+                '/images/gallery/rhinestone_bride/thumbnail_6',
                 '/images/gallery/rhinestone_bride/thumbnail_1',
-                '/images/gallery/rhinestone_bride/thumbnail_2',
                 '/images/gallery/rhinestone_bride/thumbnail_3',
-                '/images/gallery/rhinestone_bride/thumbnail_4',
+                '/images/gallery/rhinestone_bride/thumbnail_2',
+                '/images/gallery/rhinestone_bride/thumbnail_7',
                 '/images/gallery/rhinestone_bride/thumbnail_5'
             ],
             'Cathedral Veil with Rhinestone Embellishments'
         );
 
+        let cardTwelve = new GalleryCard(
+            [
+                '/images/gallery/kelvin/thumbnail_3',
+                '/images/gallery/kelvin/thumbnail_2',
+                '/images/gallery/kelvin/thumbnail_4',
+                '/images/gallery/kelvin/thumbnail_1',
+            ],
+            'Button Down Vest with Decorative Pockets'
+        );
+
 
         let cards = [];
-        cards.push(cardOne, cardTwo, cardThree, cardFour, cardFive, cardSix, cardSeven, cardEight, cardNine, cardTen, cardEleven);
+        cards.push(cardEleven, cardOne, cardTwo, cardThree, cardFour, cardFive, cardSix, cardSeven, cardEight, cardNine, cardTen, cardTwelve);
 
 
         for (let j = 0; j < cards.length; j++) {

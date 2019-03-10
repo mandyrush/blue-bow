@@ -15,8 +15,12 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example-component', require('./components/ExampleComponent.vue'));
+
+import MainMenu from './components/MainMenu'
 
 const app = new Vue({
+    components: {
+      MainMenu
+    },
     el: '#app'
 });

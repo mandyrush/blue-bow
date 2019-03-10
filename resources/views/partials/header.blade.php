@@ -14,74 +14,76 @@
 </div>
 
 
-<script>
-    let prevScrollpos = window.pageYOffset;
+{{--<script>--}}
+    {{--let prevScrollpos = window.pageYOffset;--}}
 
-    window.onscroll = function() {
-        let currentScrollPos = window.pageYOffset;
-        let navigation = document.querySelector('.navigation');
+    {{--window.onscroll = function() {--}}
+        {{--let currentScrollPos = window.pageYOffset;--}}
+        {{--let navigation = document.querySelector('.navigation');--}}
 
-        if (prevScrollpos > currentScrollPos) {
-            navigation.style.top = '0px';
-        } else {
-            navigation.style.top = '-40vh';
-        }
-        prevScrollpos = currentScrollPos;
-
-
-        let scrlTop = document.documentElement.scrollTop;
-        let navContent = document.querySelector('.nav-content');
-        let logoDescription = document.querySelector('.logo-description');
-        let logo = document.querySelector('.logo');
-
-        if (scrlTop < 100) {
-            navContent.style.padding = '4rem 0px 1.5rem 0px';
-            navigation.style.display = 'block';
-            navigation.style.backgroundColor = 'transparent';
-
-            logoDescription.style.display = 'flex';
-            logo.style.marginBottom = '1.5rem';
-
-            logo.classList.remove('scrl-logo');
-            logo.classList.add('static-logo');
+        {{--if (prevScrollpos > currentScrollPos) {--}}
+            {{--navigation.style.top = '0px';--}}
+            {{--navigation.style.position = 'fixed';--}}
+        {{--} else {--}}
+            {{--navigation.style.top = '-40vh';--}}
+        {{--}--}}
+        {{--prevScrollpos = currentScrollPos;--}}
 
 
-        } else if (scrlTop > 100 && scrlTop < window.innerHeight) {
-            navigation.style.top = '-40vh';
-        } else {
-            navContent.style.padding = '10px';
-            navigation.style.display = 'block';
-            navigation.style.backgroundColor = 'rgba(10, 51, 149, 1)';
+        {{--let scrlTop = document.documentElement.scrollTop;--}}
+        {{--let navContent = document.querySelector('.nav-content');--}}
+        {{--let logoDescription = document.querySelector('.logo-description');--}}
+        {{--let logo = document.querySelector('.logo');--}}
 
-            logoDescription.style.display = 'none';
-            logo.style.marginBottom = '0px';
+        {{--if (scrlTop < 100) {--}}
+            {{--navContent.style.padding = '4rem 0px 1.5rem 0px';--}}
+            {{--navigation.style.display = 'block';--}}
+            {{--navigation.style.backgroundColor = 'transparent';--}}
+            {{--navigation.style.position = 'static';--}}
 
-            logo.classList.remove('static-logo');
-            logo.classList.add('scrl-logo');
-        }
-    };
+            {{--logoDescription.style.display = 'flex';--}}
+            {{--logo.style.marginBottom = '1.5rem';--}}
+
+            {{--logo.classList.remove('scrl-logo');--}}
+            {{--logo.classList.add('static-logo');--}}
 
 
-    let myWorkBtn = document.querySelector('.my-work-btn');
-    let contactBtn = document.querySelector('.contact-btn');
-    let aboutMeBtn = document.querySelector('.about-me-btn');
+        {{--} else if (scrlTop > 100 && scrlTop < window.innerHeight) {--}}
+            {{--navigation.style.top = '-40vh';--}}
+        {{--} else {--}}
+            {{--navContent.style.padding = '10px';--}}
+            {{--navigation.style.display = 'block';--}}
+            {{--navigation.style.backgroundColor = 'rgba(10, 51, 149, 1)';--}}
 
-    myWorkBtn.onclick = function() {
-        document.querySelector('.carousel-slider').scrollIntoView ({
-            behavior: 'smooth'
-        });
-    };
+            {{--logoDescription.style.display = 'none';--}}
+            {{--logo.style.marginBottom = '0px';--}}
 
-    contactBtn.onclick = function() {
-        document.querySelector('.contact').scrollIntoView ({
-            behavior: 'smooth'
-        });
-    };
+            {{--logo.classList.remove('static-logo');--}}
+            {{--logo.classList.add('scrl-logo');--}}
+        {{--}--}}
+    {{--};--}}
 
-    aboutMeBtn.onclick = function() {
-        document.querySelector('.about-content').scrollIntoView ({
-            behavior: 'smooth'
-        });
-    };
 
-</script>
+    {{--let myWorkBtn = document.querySelector('.my-work-btn');--}}
+    {{--let contactBtn = document.querySelector('.contact-btn');--}}
+    {{--let aboutMeBtn = document.querySelector('.about-me-btn');--}}
+
+    {{--myWorkBtn.onclick = function() {--}}
+        {{--document.querySelector('.carousel-slider').scrollIntoView ({--}}
+            {{--behavior: 'smooth'--}}
+        {{--});--}}
+    {{--};--}}
+
+    {{--contactBtn.onclick = function() {--}}
+        {{--document.querySelector('.contact').scrollIntoView ({--}}
+            {{--behavior: 'smooth'--}}
+        {{--});--}}
+    {{--};--}}
+
+    {{--aboutMeBtn.onclick = function() {--}}
+        {{--document.querySelector('.about-content').scrollIntoView ({--}}
+            {{--behavior: 'smooth'--}}
+        {{--});--}}
+    {{--};--}}
+
+{{--</script>--}}
