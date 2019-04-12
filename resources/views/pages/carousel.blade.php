@@ -123,32 +123,32 @@
 
 </div>
 
-<script>
-    $(document).ready(function(){
+{{--<script>--}}
+{{--    $(document).ready(function(){--}}
 
-        let carouselElement = $("#myCarousel");
+{{--        let carouselElement = $("#myCarousel");--}}
 
-        // Activate Carousel
-        carouselElement.carousel();
+{{--        // Activate Carousel--}}
+{{--        carouselElement.carousel();--}}
 
-        // Enable Carousel Indicators
-        $(".indicator1").click(function(){
-            carouselElement.carousel(0);
-        });
-        $(".indicator2").click(function(){
-            carouselElement.carousel(1);
-        });
-        $(".indicator3").click(function(){
-            carouselElement.carousel(2);
-        });
+{{--        // Enable Carousel Indicators--}}
+{{--        $(".indicator1").click(function(){--}}
+{{--            carouselElement.carousel(0);--}}
+{{--        });--}}
+{{--        $(".indicator2").click(function(){--}}
+{{--            carouselElement.carousel(1);--}}
+{{--        });--}}
+{{--        $(".indicator3").click(function(){--}}
+{{--            carouselElement.carousel(2);--}}
+{{--        });--}}
 
 
-        // Enable Carousel Controls
-        $(".left").click(function(){
-            carouselElement.carousel("prev");
-        });
-        $(".right").click(function(){
-            carouselElement.carousel("next");
-        });
-    });
-</script>
+{{--        // Enable Carousel Controls--}}
+{{--        $(".left").click(function(){--}}
+{{--            carouselElement.carousel("prev");--}}
+{{--        });--}}
+{{--        $(".right").click(function(){--}}
+{{--            carouselElement.carousel("next");--}}
+{{--        });--}}
+{{--    });--}}
+{{--</script>--}}

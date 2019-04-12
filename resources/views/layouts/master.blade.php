@@ -11,7 +11,7 @@
 
             <div class="main-content">
                 <div class="navigation">
-                    @include('partials.header')
+                    <main-menu></main-menu>
                 </div>
 
                 @yield('content')
@@ -23,6 +23,8 @@
 
         </div>
     </div>
+
+    <script src="/js/app.js"></script>
 </body>
 
 </html>
