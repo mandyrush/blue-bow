@@ -494,7 +494,6 @@ nav a {
     background-color: $lt-gray;
     border-top: 10px solid $lt-gray;
     margin-top: 0;
-    position: absolute;
     .gallery-card {
         display: grid;
         grid-template-rows: repeat(2, auto);
@@ -507,10 +506,12 @@ nav a {
             grid-template-columns: 45% 55%;
             grid-gap: .5em;
             .featured-image {
-                max-height: 640px;
-                max-width: 100%;
-                border: 2px solid $white;
                 margin: auto;
+                img {
+                    max-height: 640px;
+                    max-width: 100%;
+                    border: 2px solid $white;
+                }
             }
             .thumbnails {
                 margin: 0 2rem 0 0;
@@ -519,7 +520,8 @@ nav a {
                 grid-template-columns: repeat(3, auto);
                 grid-template-rows: repeat(2, auto);
                 grid-gap: 1em;
-                list-style: none;
+            }
+            .thumbnail {
                 img {
                     max-height: 350px;
                     max-width: 100%;
