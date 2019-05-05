@@ -3,11 +3,11 @@
     <!--Crop ratio for thumbnails = 1:1, height = 500px x 500px-->
 
     <div class="gallery">
-        <div v-for="(card, index) in galleryCards">
+        <div v-for="card in galleryCards">
 
             <gallery-card
                 :card="card"
-                :key="index"
+                :key="card.id"
             >
             </gallery-card>
 
@@ -16,7 +16,7 @@
 </template>
 
 <script>
-    import GalleryCard from './GalleryCard'
+    import GalleryCard from '../components/GalleryCard'
 
     export default {
         components: {
@@ -26,6 +26,7 @@
             return {
                 galleryCards: [
                     {
+                        id: 1,
                         thumbnails: [
                             '/images/gallery/rhinestone_bride/thumbnail_6',
                             '/images/gallery/rhinestone_bride/thumbnail_1',
@@ -37,6 +38,7 @@
                         cardTitle: 'Cathedral Veil with Rhinestone Embellishments'
                     },
                     {
+                        id: 2,
                         thumbnails: [
                             '/images/gallery/renee/thumbnail_1',
                             '/images/gallery/renee/thumbnail_2',
@@ -46,6 +48,7 @@
                         cardTitle: 'Cathedral Veil with Lace Trim'
                     },
                     {
+                        id: 3,
                         thumbnails: [
                             '/images/gallery/brooke/thumbnail_1',
                             '/images/gallery/brooke/thumbnail_5',
@@ -56,6 +59,7 @@
                         cardTitle: 'Cathedral Veil with Pearl Accents'
                     },
                     {
+                        id: 4,
                         thumbnails: [
                             '/images/gallery/sarah_veil2/thumbnail_1',
                             '/images/gallery/sarah_veil2/thumbnail_2',
@@ -66,6 +70,7 @@
                         cardTitle: 'Floral Halo Veil'
                     },
                     {
+                        id: 5,
                         thumbnails: [
                             '/images/gallery/nicki/thumbnail_1',
                             '/images/gallery/nicki/thumbnail_2',
@@ -77,6 +82,7 @@
                         cardTitle: 'Tea Length Wedding Dress & Birdcage Veil'
                     },
                     {
+                        id: 6,
                         thumbnails: [
                             '/images/gallery/black_red_bride/thumbnail_2',
                             '/images/gallery/black_red_bride/thumbnail_1',
@@ -86,6 +92,7 @@
                         cardTitle: 'Birdcage Veil with Feather Embellishment'
                     },
                     {
+                        id: 7,
                         thumbnails: [
                             '/images/gallery/shandra/thumbnail_1',
                             '/images/gallery/shandra/thumbnail_2',
@@ -97,6 +104,7 @@
                         cardTitle: 'Lace Cathedral Veil'
                     },
                     {
+                        id: 8,
                         thumbnails: [
                             '/images/gallery/shandra_halos/thumbnail_5',
                             '/images/gallery/shandra_halos/thumbnail_6',
@@ -108,6 +116,7 @@
                         cardTitle: 'Flower Girl Floral Halo'
                     },
                     {
+                        id: 9,
                         thumbnails: [
                             '/images/gallery/sarah/thumbnail_1',
                             '/images/gallery/sarah/thumbnail_2',
@@ -120,6 +129,7 @@
                     },
 
                     {
+                        id: 10,
                         thumbnails: [
                             '/images/gallery/amanda/thumbnail_1',
                             '/images/gallery/amanda/thumbnail_2',
@@ -129,6 +139,7 @@
                         cardTitle: 'Double Tiered Veil with Pearl Edging'
                     },
                     {
+                        id: 11,
                         thumbnails: [
                             '/images/gallery/tacy/thumbnail_1',
                             '/images/gallery/tacy/thumbnail_2',
@@ -139,6 +150,7 @@
                         cardTitle: 'Wedding Dress with Asymmetrical Hem & Birdcage Veil'
                     },
                     {
+                        id: 12,
                         thumbnails: [
                             '/images/gallery/kelvin/thumbnail_3',
                             '/images/gallery/kelvin/thumbnail_2',
