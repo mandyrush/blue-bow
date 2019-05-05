@@ -1,7 +1,7 @@
 <template>
-    <div class="nav-content test">
+    <div class="nav-content test" v-if="isVisible">
         <a
-            @click.prevent="navScroll('app')"
+            @click.prevent="navScroll('main-bg')"
         >
             <i class="btn-to-top fas fa-angle-up"></i>
         </a>
@@ -66,6 +66,13 @@
 
 <script>
     export default {
+        data() {
+            return {
+                isVisible: false,
+                prevScrollPos: window.pageYOffset,
+
+            }
+        },
         computed: {
             windowUrl() {
                 return window.location.pathname;
@@ -77,6 +84,19 @@
                     behavior: 'smooth'
                 });
             }
+        },
+        created() {
+            window.onscroll = function () {
+                let currentScrollPos = window.pageYOffset;
+
+                if (this.prevScrollpos > currentScrollPos) {
+                    this.isVisible = true;
+                } else {
+                    this.isVisible = false;
+                }
+
+                this.prevScrollpos = currentScrollPos;
+            }
         }
     }
 </script>
@@ -86,6 +106,9 @@
         background-color: rgba(10, 51, 149, 1);
         padding: .5rem 0;
         align-items: center;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
     }
     .scrl-logo {
         font-size: 3.5vw;

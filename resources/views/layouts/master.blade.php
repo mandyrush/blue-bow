@@ -7,7 +7,7 @@
 
 <body>
     <div id="app">
-        <div class="main-bg">
+        <div class="main-bg" id="main-bg">
 
             <div class="main-content">
                 <div class="navigation">
