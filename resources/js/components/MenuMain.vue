@@ -3,8 +3,7 @@
         <header class="col-lg-5">
             <a href="/">
                 <div class="logo static-logo title">Blue Bow Fashion</div>
-                <div class="logo-description subtitle is-5">Handmade Wedding Veils and Accessories</div>
-
+                <div class="logo-description is-size-4-desktop">Handmade Wedding Veils and Accessories</div>
             </a>
         </header>
         <nav class="col-sm-5">

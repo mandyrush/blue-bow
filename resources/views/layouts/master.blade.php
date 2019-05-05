@@ -20,7 +20,6 @@
             <div class="dark-bg main"></div>
 
             <div class="lt-bg"></div>
-
         </div>
     </div>
 
