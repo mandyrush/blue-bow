@@ -179,13 +179,11 @@ button:focus {outline:0;}
     margin-bottom: 25%;
     box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3), 0 -1px 10px 0 rgba(50, 50, 50, 0.3);
     background-color: $white;
-
     header {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
-        max-height: 10vh;
         font-family: $fancy-font;
         font-weight: normal;
         color: $blue;
@@ -193,10 +191,6 @@ button:focus {outline:0;}
     .carousel-indicators {
         z-index: 1;
     }
-}
-
-.carousel-item {
-    max-height: 82vh;
 }
 
 @media (max-height: 315px) {
@@ -252,9 +246,7 @@ button:focus {outline:0;}
 .link-to-gallery {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    padding: 1rem;
-    max-height: 8vh;
+    padding: 0 .5rem .5rem .5rem;
     a {
         border: 1px solid $blue;
         color: $blue;
