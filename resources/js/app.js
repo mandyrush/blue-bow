@@ -15,18 +15,17 @@ window.Vue = require('vue');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-
-import MainMenu from './components/MainMenu'
-import Gallery from './views/Gallery'
+import Menus from './components/Menus'
 import Carousel from './components/Carousel'
+import Gallery from './views/Gallery'
 import About from './views/About'
 
 const app = new Vue({
     el: '#app',
     components: {
-        MainMenu,
-        Gallery,
+        Menus,
         Carousel,
+        Gallery,
         About
     }
 });

@@ -3,7 +3,6 @@
 </template>
 
 <script>
-
     import { throttle } from 'lodash';
 
     export default {

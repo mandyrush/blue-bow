@@ -294,7 +294,6 @@ button:focus {outline:0;}
                 width: 100%;
                 position: absolute;
                 bottom: .1rem;
-                //z-index: 5;
                 text-shadow: .5px 1px .5px rgba(120, 120, 120, 1);
             }
         }
@@ -315,19 +314,6 @@ nav a {
     &:visited { color: $white; }
     &:hover { color: $white; text-decoration: none; }
     &:active { color: $white; }
-}
-
-.btn-to-top {
-    display: none;
-    position: absolute;
-    cursor: pointer;
-    top: 5px;
-    right: 5px;
-    color: $white;
-    font-size: 4rem;
-    margin-left: .5rem;
-    padding: 0 .5rem;
-    border-radius: 1rem;
 }
 
 @media (max-width: 1200px) {
@@ -369,13 +355,8 @@ nav a {
     }
 }
 
-
 .static-logo {
     font-size: 6vw;
-}
-
-.scrl-logo {
-    font-size: 3.5vw;
 }
 
 //Forms

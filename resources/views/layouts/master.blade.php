@@ -11,7 +11,7 @@
 
             <div class="main-content">
                 <div class="navigation">
-                    <main-menu></main-menu>
+                    <menus></menus>
                 </div>
 
                 @yield('content')
