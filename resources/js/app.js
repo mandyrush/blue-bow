@@ -17,12 +17,16 @@ window.Vue = require('vue');
 
 
 import MainMenu from './components/MainMenu'
-import Gallery from './components/Gallery'
+import Gallery from './views/Gallery'
+import Carousel from './components/Carousel'
+import About from './views/About'
 
 const app = new Vue({
     el: '#app',
     components: {
         MainMenu,
-        Gallery
+        Gallery,
+        Carousel,
+        About
     }
 });

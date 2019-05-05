@@ -12,13 +12,13 @@
         <img src="/images/bow_fancy_line.png" class="col-md-7" alt="">
     </div>
 
-    @include ('pages.carousel')
+    <carousel></carousel>
 
     <div class="dark-bg">
         <div class="gradient-bg">
-            @include ('pages.contact')
+            @include('pages.contact')
 
-            @include ('pages.about')
+            <about></about>
         </div>
     </div>
 @endsection
