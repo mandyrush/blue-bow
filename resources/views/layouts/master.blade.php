@@ -5,25 +5,43 @@
     @include('partials.head')
 </head>
 
-<body>
+<body onresize="backgroundSize()">
     <div id="app">
         <div class="main-bg" id="main-bg">
 
-            <div class="main-content">
-                <div class="navigation">
-                    <menus></menus>
+                <div class="main-content">
+
+                    <div class="dark-bg main" id="dark-bg">
+                        <div class="navigation" id="navigation">
+                            <menus></menus>
+                        </div>
+
+                        @yield('content')
+                    </div>
+
                 </div>
-
-                @yield('content')
-            </div>
-
-            <div class="dark-bg main"></div>
-
-            <div class="lt-bg"></div>
         </div>
     </div>
 
     <script src="/js/app.js"></script>
+
+    <script>
+        function backgroundSize() {
+            let darkBg = document.getElementById('dark-bg');
+
+            if(window.location.href === 'http://blue-bow.test/') {
+                let navHeight = document.getElementById('navigation').offsetHeight;
+                let bannerHeight = document.getElementById('banner').offsetHeight;
+                let backgroundHeight = navHeight + (bannerHeight * .65);
+
+                darkBg.style.height = backgroundHeight + 'px';
+            } else {
+                darkBg.style.height = 100 + 'vh';
+            }
+        }
+
+        backgroundSize();
+    </script>
 </body>
 
 </html>

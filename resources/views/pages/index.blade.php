@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <div class="banner">
+    <div class="banner" id="banner">
         <img src="/images/banner/banner_2.jpg" alt="Three brides wearing wedding veils" class="banner-img">
     </div>
 
