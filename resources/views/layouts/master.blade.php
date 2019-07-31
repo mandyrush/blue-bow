@@ -5,7 +5,15 @@
     @include('partials.head')
 </head>
 
+<script>
+    $(window).load(function() {
+        // Animate loader off screen
+        $(".se-pre-con").fadeOut("slow");
+    });
+</script>
+
 <body onresize="backgroundSize()">
+<div class="se-pre-con"></div>
     <div id="app">
         <div class="main-bg" id="main-bg">
 
