@@ -37,7 +37,7 @@
         function backgroundSize() {
             let darkBg = document.getElementById('dark-bg');
 
-            if(window.location.href === 'http://bluebowfashion.com/') {
+            if(window.location.pathname === '/') {
                 let navHeight = document.getElementById('navigation').offsetHeight;
                 let bannerHeight = document.getElementById('banner').offsetHeight;
                 let backgroundHeight = navHeight + (bannerHeight * .65);
