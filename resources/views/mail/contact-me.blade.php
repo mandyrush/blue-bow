@@ -1,5 +1,5 @@
 @component('mail::message')
-# New Request from Blue Bow Montana
+# New Request from bluebowfashion.com
 
 Name: {{ $data['firstName'] }} {{ $data['lastName'] }}<br>
 

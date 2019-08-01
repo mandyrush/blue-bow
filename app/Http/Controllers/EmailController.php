@@ -32,7 +32,7 @@ class EmailController extends Controller
                 ->withInput();
         }
 
-        Mail::to('mandyrush85@gmail.com')->send(
+        Mail::to('bluebowfashion@gmail.com')->send(
             new ContactMe($request)
         );
 
