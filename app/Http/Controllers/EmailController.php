@@ -36,6 +36,7 @@ class EmailController extends Controller
             new ContactMe($request)
         );
 
-        return redirect('/');
+        return redirect('/')
+            ->with('flash', 'Your message has been sent!');
     }
 }

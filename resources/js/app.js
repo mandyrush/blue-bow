@@ -1,9 +1,9 @@
-
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
+
 
 require('./bootstrap');
 
@@ -19,6 +19,7 @@ import Menus from './components/Menus'
 import Carousel from './components/Carousel'
 import Gallery from './views/Gallery'
 import About from './views/About'
+import FlashMessage from "./components/FlashMessage";
 
 const app = new Vue({
     el: '#app',
@@ -26,6 +27,7 @@ const app = new Vue({
         Menus,
         Carousel,
         Gallery,
-        About
+        About,
+        FlashMessage
     }
 });

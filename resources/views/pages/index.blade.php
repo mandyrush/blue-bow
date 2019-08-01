@@ -19,6 +19,8 @@
             @include('pages.contact')
 
             <about></about>
+
+            <flash-message message="{{ session('flash') }}"></flash-message>
         </div>
     </div>
 @endsection
