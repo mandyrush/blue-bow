@@ -77,6 +77,18 @@ button:focus {outline:0;}
     width: 100%;
 }
 
+@media (max-width: 1024px) {
+    .main {
+        padding: 5rem 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .main {
+        padding: 0;
+    }
+}
+
 .main {
     box-shadow: 0 4px 7px 0 rgba(50, 50, 50, 0.3);
 }
@@ -328,7 +340,16 @@ nav a {
     &:active { color: $white; }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 600px) {
+    .navigation .nav-content nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1024px) {
     .navigation {
         .nav-content {
             flex-direction: column;
@@ -350,10 +371,6 @@ nav a {
                 }
             }
             nav {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
                 margin-top: 1rem;
                 padding-left: 0;
                 button, a {
@@ -446,22 +463,16 @@ nav a {
     margin-bottom: 0;
 }
 
-
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
     .contact {
-        padding: 2%;
+        padding: 3rem 1rem;
     }
     .email-form {
-        padding: .5rem;
-        margin: 2rem;
+        padding: 1rem;
         form {
-            grid-template-columns: auto;
+            padding: 0;
             .form-column {
-                padding: 0 1.5rem;
-                .field {
-                    display: flex;
-                    flex-direction: column;
-                }
+                padding: 0 1rem;
             }
         }
     }
@@ -473,6 +484,21 @@ nav a {
     }
 }
 
+@media (max-width: 600px) {
+    .email-form {
+        margin: .5rem;
+        form {
+            grid-template-columns: auto;
+            .form-column {
+                padding: 0;
+                .field {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
 
 //Gallery Page
 .gallery {
