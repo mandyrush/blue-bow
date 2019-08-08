@@ -533,6 +533,9 @@ nav a {
                 grid-gap: 1em;
             }
             .thumbnail {
+                &:hover {
+                    opacity: .85;
+                }
                 img {
                     max-height: 350px;
                     max-width: 100%;
