@@ -40,6 +40,30 @@
                     {
                         id: 2,
                         thumbnails: [
+                            '/images/gallery/shelby/thumbnail_1',
+                            '/images/gallery/shelby/thumbnail_2',
+                            '/images/gallery/shelby/thumbnail_3',
+                            '/images/gallery/shelby/thumbnail_4',
+                            '/images/gallery/shelby/thumbnail_6',
+                            '/images/gallery/shelby/thumbnail_5'
+                        ],
+                        cardTitle: 'Hand Beaded Angel Cut Veil'
+                    },
+                    {
+                        id: 14,
+                        thumbnails: [
+                            '/images/gallery/shelby_flower_girl/thumbnail_1',
+                            '/images/gallery/shelby_flower_girl/thumbnail_2',
+                            '/images/gallery/shelby_flower_girl/thumbnail_6',
+                            '/images/gallery/shelby_flower_girl/thumbnail_4',
+                            '/images/gallery/shelby_flower_girl/thumbnail_5',
+                            '/images/gallery/shelby_flower_girl/thumbnail_3'
+                        ],
+                        cardTitle: 'Flower Girl Dress with matching Halo & Diaper Cover'
+                    },
+                    {
+                        id: 3,
+                        thumbnails: [
                             '/images/gallery/renee/thumbnail_1',
                             '/images/gallery/renee/thumbnail_2',
                             '/images/gallery/renee/thumbnail_3',
@@ -48,7 +72,7 @@
                         cardTitle: 'Cathedral Veil with Lace Trim'
                     },
                     {
-                        id: 3,
+                        id: 4,
                         thumbnails: [
                             '/images/gallery/brooke/thumbnail_1',
                             '/images/gallery/brooke/thumbnail_5',
@@ -59,7 +83,7 @@
                         cardTitle: 'Cathedral Veil with Pearl Accents'
                     },
                     {
-                        id: 4,
+                        id: 5,
                         thumbnails: [
                             '/images/gallery/sarah_veil2/thumbnail_1',
                             '/images/gallery/sarah_veil2/thumbnail_2',
@@ -70,7 +94,7 @@
                         cardTitle: 'Floral Halo Veil'
                     },
                     {
-                        id: 5,
+                        id: 6,
                         thumbnails: [
                             '/images/gallery/nicki/thumbnail_1',
                             '/images/gallery/nicki/thumbnail_2',
@@ -82,7 +106,7 @@
                         cardTitle: 'Tea Length Wedding Dress & Birdcage Veil'
                     },
                     {
-                        id: 6,
+                        id: 7,
                         thumbnails: [
                             '/images/gallery/black_red_bride/thumbnail_2',
                             '/images/gallery/black_red_bride/thumbnail_1',
@@ -92,7 +116,7 @@
                         cardTitle: 'Birdcage Veil with Feather Embellishment'
                     },
                     {
-                        id: 7,
+                        id: 8,
                         thumbnails: [
                             '/images/gallery/shandra/thumbnail_1',
                             '/images/gallery/shandra/thumbnail_2',
@@ -104,7 +128,7 @@
                         cardTitle: 'Lace Cathedral Veil'
                     },
                     {
-                        id: 8,
+                        id: 9,
                         thumbnails: [
                             '/images/gallery/shandra_halos/thumbnail_5',
                             '/images/gallery/shandra_halos/thumbnail_6',
@@ -116,7 +140,7 @@
                         cardTitle: 'Flower Girl Floral Halo'
                     },
                     {
-                        id: 9,
+                        id: 10,
                         thumbnails: [
                             '/images/gallery/sarah/thumbnail_1',
                             '/images/gallery/sarah/thumbnail_2',
@@ -129,7 +153,7 @@
                     },
 
                     {
-                        id: 10,
+                        id: 11,
                         thumbnails: [
                             '/images/gallery/amanda/thumbnail_1',
                             '/images/gallery/amanda/thumbnail_2',
@@ -139,7 +163,7 @@
                         cardTitle: 'Double Tiered Veil with Pearl Edging'
                     },
                     {
-                        id: 11,
+                        id: 12,
                         thumbnails: [
                             '/images/gallery/tacy/thumbnail_1',
                             '/images/gallery/tacy/thumbnail_2',
@@ -150,7 +174,7 @@
                         cardTitle: 'Wedding Dress with Asymmetrical Hem & Birdcage Veil'
                     },
                     {
-                        id: 12,
+                        id: 13,
                         thumbnails: [
                             '/images/gallery/kelvin/thumbnail_3',
                             '/images/gallery/kelvin/thumbnail_2',
