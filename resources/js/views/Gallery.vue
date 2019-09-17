@@ -30,10 +30,10 @@
                         thumbnails: [
                             '/images/gallery/rhinestone_bride/thumbnail_6',
                             '/images/gallery/rhinestone_bride/thumbnail_1',
-                            '/images/gallery/rhinestone_bride/thumbnail_3',
+                            '/images/gallery/rhinestone_bride/thumbnail_8',
                             '/images/gallery/rhinestone_bride/thumbnail_2',
                             '/images/gallery/rhinestone_bride/thumbnail_7',
-                            '/images/gallery/rhinestone_bride/thumbnail_5'
+                            '/images/gallery/rhinestone_bride/thumbnail_9'
                         ],
                         cardTitle: 'Cathedral Veil with Rhinestone Embellishments'
                     },
@@ -74,7 +74,7 @@
                     {
                         id: 4,
                         thumbnails: [
-                            '/images/gallery/brooke/thumbnail_1',
+                            '/images/gallery/brooke/thumbnail_6',
                             '/images/gallery/brooke/thumbnail_5',
                             '/images/gallery/brooke/thumbnail_3',
                             '/images/gallery/brooke/thumbnail_4',
